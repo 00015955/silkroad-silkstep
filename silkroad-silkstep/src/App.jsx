@@ -1,35 +1,56 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Routes, Route } from 'react-router-dom'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+// Temporary placeholder Navbar
+function Navbar() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <header style={{ padding: '1rem 2rem', borderBottom: '1px solid #e8e4dd' }}>
+      <strong>Silkroad</strong>
+    </header>
   )
 }
 
-export default App
+// Temporary placeholder AuthModal
+function AuthModal() {
+  return null
+}
+
+// Temporary page components
+function HomePage() {
+  return <h1 style={{ padding: '2rem' }}>Home Page</h1>
+}
+
+function DestinationsPage() {
+  return <h1 style={{ padding: '2rem' }}>Destinations Page</h1>
+}
+
+function EventsPage() {
+  return <h1 style={{ padding: '2rem' }}>Events Page</h1>
+}
+
+function AIGuidePage() {
+  return <h1 style={{ padding: '2rem' }}>AI Guide Page</h1>
+}
+
+function App() {
+  return (
+    <div className="app">
+      {/* Shows on every page */}
+      <Navbar />
+
+      <main>
+        {/* Switches pages based on URL */}
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/destinations" element={<DestinationsPage />} />
+          <Route path="/events" element={<EventsPage />} />
+          <Route path="/ai-guide" element={<AIGuidePage />} />
+        </Routes>
+      </main>
+
+      {/* Will later become the real auth popup */}
+      <AuthModal />
+    </div>
+  )
+}
+
+export default App 
