@@ -1,9 +1,5 @@
 # silkroad-silkstep
 BISP
 
-# Initial commit  
-start
-
-
-# project 
-start
+# React was installed 
+react project was installed 
