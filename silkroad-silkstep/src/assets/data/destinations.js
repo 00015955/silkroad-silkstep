@@ -1,0 +1,176 @@
+export const destinations = [
+    {
+      id: 1,
+      name: "Samarkand",
+      tag: "UNESCO",
+      emoji: "🕌",
+      bgColor: "#b8860b",
+      description:
+        "Uzbekistan’s most iconic Silk Road city, known for Registan Square, Shah-i-Zinda, and monumental Timurid architecture.",
+      longDescription:
+        "Samarkand is one of Central Asia’s oldest cities and one of the great crossroads of the Silk Road. UNESCO highlights Registan Square, Bibi-Khanym Mosque, Shah-i-Zinda, Gur-e-Amir, and Ulugh Beg’s Observatory as part of its outstanding heritage.",
+      rating: 4.9,
+      duration: "3–4 days",
+      highlights: [
+        "Registan Square",
+        "Shah-i-Zinda",
+        "Gur-e-Amir Mausoleum",
+        "Bibi-Khanym Mosque",
+        "Ulugh Beg Observatory",
+      ],
+      bestTime: "April–May, September–October",
+      region: "Samarkand Region",
+    },
+    {
+      id: 2,
+      name: "Bukhara",
+      tag: "UNESCO",
+      emoji: "🕌",
+      bgColor: "#8b4513",
+      description:
+        "A beautifully preserved Silk Road city filled with madrasas, mosques, trading domes, and atmospheric old-town streets.",
+      longDescription:
+        "Bukhara is one of the best-preserved historic cities in Central Asia. Its old city is a UNESCO World Heritage Site and remains famous for monuments such as the Ark Fortress, Po-i-Kalyan, and Lyabi-Hauz.",
+      rating: 4.8,
+      duration: "2–3 days",
+      highlights: [
+        "Ark Fortress",
+        "Po-i-Kalyan Complex",
+        "Lyabi-Hauz",
+        "Chor Minor",
+        "Bolo Hauz Mosque",
+      ],
+      bestTime: "March–May, September–November",
+      region: "Bukhara Region",
+    },
+    {
+      id: 3,
+      name: "Khiva",
+      tag: "UNESCO",
+      emoji: "🏰",
+      bgColor: "#2e8b57",
+      description:
+        "A walled desert city centered on Itchan Kala, with minarets, palaces, and one of the most atmospheric old towns in Uzbekistan.",
+      longDescription:
+        "Khiva’s historic inner town, Itchan Kala, is a UNESCO World Heritage Site. It is enclosed by powerful brick walls and preserves an unusually coherent ensemble of Central Asian Islamic architecture, including palaces, mosques, madrasas, and minarets.",
+      rating: 4.9,
+      duration: "1–2 days",
+      highlights: [
+        "Itchan Kala",
+        "Islam Khoja Minaret",
+        "Kalta Minor",
+        "Juma Mosque",
+        "Tash Hauli Palace",
+      ],
+      bestTime: "April–June, September–October",
+      region: "Khorezm Region",
+    },
+    {
+      id: 4,
+      name: "Tashkent",
+      tag: "Culture",
+      emoji: "🏙️",
+      bgColor: "#4682b4",
+      description:
+        "A modern Central Asian capital where Soviet heritage, leafy boulevards, bazaars, and contemporary city life meet.",
+      longDescription:
+        "Tashkent is Uzbekistan’s capital and largest city. It blends monumental Soviet-era urban planning with modern development, lively food spots, major museums, Chorsu Bazaar, and the Khast Imam complex.",
+      rating: 4.6,
+      duration: "2 days",
+      highlights: [
+        "Chorsu Bazaar",
+        "Tashkent Metro",
+        "Khast Imam Complex",
+        "Amir Timur Museum",
+        "State Museum of History",
+      ],
+      bestTime: "April–June, September–November",
+      region: "Tashkent City",
+    },
+    {
+      id: 5,
+      name: "Fergana Valley",
+      tag: "Culture",
+      emoji: "🧵",
+      bgColor: "#9370db",
+      description:
+        "A craft-rich region famous for silk weaving, ceramics, local markets, and the historic cities of Margilan, Rishtan, and Kokand.",
+      longDescription:
+        "The Fergana Valley is one of Uzbekistan’s most culturally vibrant areas and is especially known for traditional craftsmanship. Travelers often come for Margilan’s silk heritage, Rishtan ceramics, and Kokand’s history.",
+      rating: 4.7,
+      duration: "2–3 days",
+      highlights: [
+        "Yodgorlik Silk Factory",
+        "Rishtan Ceramics",
+        "Kokand Khan’s Palace",
+        "Margilan Bazaar",
+      ],
+      bestTime: "May–June, September–October",
+      region: "Fergana Valley (Fergana, Andijan, Namangan)",
+    },
+    {
+      id: 6,
+      name: "Nurata & Kyzylkum Desert",
+      tag: "Nature",
+      emoji: "🏕️",
+      bgColor: "#cd5c5c",
+      description:
+        "A desert escape with yurt camps, camel rides, starry skies, and easy access to Aidarkul Lake and Nurata’s sacred sites.",
+      longDescription:
+        "This route combines the historic town of Nurata with the Kyzylkum Desert experience. It’s a popular stop for travelers wanting yurt stays, camel trekking, village hospitality, and excursions toward Aidarkul Lake.",
+      rating: 4.8,
+      duration: "2 days",
+      highlights: [
+        "Kyzylkum Desert Camp",
+        "Nurata Holy Spring",
+        "Yurt Stay",
+        "Camel Trekking",
+        "Aidarkul Lake",
+      ],
+      bestTime: "March–May, September–October",
+      region: "Navoi Region",
+    },
+    {
+      id: 7,
+      name: "Shakhrisabz",
+      tag: "History",
+      emoji: "🏛️",
+      bgColor: "#b8860b",
+      description:
+        "The birthplace of Amir Timur, known for monumental Timurid ruins and one of Uzbekistan’s most historically significant urban centers.",
+      longDescription:
+        "Shakhrisabz is closely associated with Amir Timur and is home to the remains of Ak-Saray Palace and major Timurid monuments. Its historic centre is UNESCO-listed, though it has also been placed on the List of World Heritage in Danger.",
+      rating: 4.7,
+      duration: "1 day",
+      highlights: [
+        "Ak-Saray Palace ruins",
+        "Dorut Tilavat",
+        "Kok Gumbaz Mosque",
+        "Hazrati Imam Ensemble",
+      ],
+      bestTime: "April–October",
+      region: "Qashqadaryo Region",
+    },
+    {
+      id: 8,
+      name: "Termez",
+      tag: "History",
+      emoji: "🏺",
+      bgColor: "#8b4513",
+      description:
+        "A fascinating southern city with Buddhist archaeological sites, ancient ruins, and a very different atmosphere from the classic Silk Road circuit.",
+      longDescription:
+        "Termez stands near Uzbekistan’s southern border and is especially notable for its Buddhist-era heritage. Sites such as Fayaz-Tepe and Kara-Tepe make it one of the country’s most distinctive destinations for archaeology and deep history.",
+      rating: 4.5,
+      duration: "1–2 days",
+      highlights: [
+        "Fayaz-Tepe",
+        "Kara-Tepe",
+        "Old Termez",
+        "Zurmala Tower",
+        "Sultan Saodat Ensemble",
+      ],
+      bestTime: "March–May, October–November",
+      region: "Surxondaryo Region",
+    },
+  ]; 
