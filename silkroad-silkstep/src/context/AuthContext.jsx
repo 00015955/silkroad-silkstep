@@ -3,47 +3,69 @@ import { createContext, useContext, useState } from 'react'
 
 const AuthContext = createContext(null)
 
-// Provider component.
-// It wraps the app and gives all child components access to auth state.
+// Wrapping the app
 export function AuthProvider({ children }) {
-  // Stores the current logged-in user.
-
+  // Logged-in user object; null means not logged in
   const [user, setUser] = useState(null)
 
-  // Controls whether the auth modal is visible.
+  // Controls whether the auth modal is visible
   const [showModal, setShowModal] = useState(false)
 
-  // Logs the user in by saving their data.
-  // Also closes the modal after successful login.
+  // Can be 'login' or 'register'
+  const [modalMode, setModalMode] = useState('login')
+
+  // Log in a user and close modal
   const login = (userData) => {
     setUser(userData)
     setShowModal(false)
   }
 
-  // Logs the user out by clearing the saved user.
+  // Register a user and close modal
+  // For now, this behaves like login
+  const register = (userData) => {
+    setUser(userData)
+    setShowModal(false)
+  }
+
+  // Log out the user
   const logout = () => {
     setUser(null)
   }
 
-  // Opens the login/signup modal.
+  // Open modal in login mode
+  const openLogin = () => {
+    setModalMode('login')
+    setShowModal(true)
+  }
+
+  // Open modal in register mode
+  const openRegister = () => {
+    setModalMode('register')
+    setShowModal(true)
+  }
+
+  // Generic open modal
   const openModal = () => {
     setShowModal(true)
   }
 
-  // Closes the login/signup modal.
+  // Close modal
   const closeModal = () => {
     setShowModal(false)
   }
 
-  
   return (
     <AuthContext.Provider
       value={{
         user,
         showModal,
+        modalMode,
         login,
+        register,
         logout,
         openModal,
+        openLogin,
+        openRegister,
         closeModal,
       }}
     >
@@ -52,7 +74,7 @@ export function AuthProvider({ children }) {
   )
 }
 
-
+// Custom hook for easier usage
 export function useAuth() {
   return useContext(AuthContext)
 }
