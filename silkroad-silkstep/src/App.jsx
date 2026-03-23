@@ -1,20 +1,8 @@
 import { Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar/Navbar.jsx'
+import AuthModal from './components/AuthModal/AuthModal.jsx'
 
-// Temporary placeholder Navbar
-function Navbar() {
-  return (
-    <header style={{ padding: '1rem 2rem', borderBottom: '1px solid #e8e4dd' }}>
-      <strong>Silkroad</strong>
-    </header>
-  )
-}
-
-// Temporary placeholder AuthModal
-function AuthModal() {
-  return null
-}
-
-// Temporary page components
+// Temporary page placeholders until real page files are created
 function HomePage() {
   return <h1 style={{ padding: '2rem' }}>Home Page</h1>
 }
@@ -34,11 +22,9 @@ function AIGuidePage() {
 function App() {
   return (
     <div className="app">
-      {/* Shows on every page */}
       <Navbar />
 
       <main>
-        {/* Switches pages based on URL */}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/destinations" element={<DestinationsPage />} />
@@ -47,10 +33,9 @@ function App() {
         </Routes>
       </main>
 
-      {/* Will later become the real auth popup */}
       <AuthModal />
     </div>
   )
 }
 
-export default App 
+export default App
