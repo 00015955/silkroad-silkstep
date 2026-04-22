@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: silk-step
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/silk-step
+    username: postgres
+    password: SaauQWtru6x5Xcp
+    driver-class-name: org.postgresql.Driver
+  data:
+    redis:
+      host: host.docker.internal
+application:
+  minio:
+    endpoint: http://host.docker.internal:9000
+    access-key: user
+    secret-key: password
+    bucket-names:
+      attachments: attachments

@@ -1,0 +1,2 @@
+INSERT INTO users(id, created_at, updated_at, full_name, login, password, role, phone, status)
+VALUES (gen_random_uuid(), now(), now(),'Silk Step user', 'silk_step','$2a$12$NGsOck68IgAFB9zYiBECO.uFfE.NtxNe1gvVXS/AfIqTrfD2O6ki6','ADMIN','998909009371', 'PENDING');--password = silkstep

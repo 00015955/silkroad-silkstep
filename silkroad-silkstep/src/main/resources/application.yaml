@@ -1,0 +1,68 @@
+spring:
+  profiles:
+    active: ${APP_PROFILE:local}
+  application:
+    name: silk-step
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/silk-step
+    username: silkStep
+    password: silkStep
+    driver-class-name: org.postgresql.Driver
+  main:
+    allow-bean-definition-overriding: true
+
+  jpa:
+    database: POSTGRESQL
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: elbeknurmatov01@gmail.com
+    password: cqkw kwgq giwz lasj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+  ai:
+    anthropic:
+      api-key: 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
+      chat:
+        options:
+          # model: claude-sonnet-4-6
+          # model: claude-opus-4-6
+          model: claude-haiku-4-5
+
+application:
+  auth:
+    access-token-secret-key: 7fK9sL2xQp8ZrV3nM1cT6yW4bH0dE9uA5kJ2L8pQxR4tV7mN
+    refresh-token-secret-key: 9xA3mK7TqL2PzV8R1cW5yH6bD0nE4uJkS9F2G7ZrQpX
+    access-token-validity-seconds: 3600
+    refresh-token-validity-seconds: 216000
+  minio:
+    endpoint: http://localhost:9000
+    access-key: user
+    secret-key: password
+
+
+app:
+  cookie:
+    secure: false
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    tags-sorter: alpha
+    operations-sorter: alpha
+  show-actuator: false
+  default-flat-param-object: true

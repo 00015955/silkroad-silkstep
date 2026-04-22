@@ -1,0 +1,46 @@
+stages:
+  - docker
+  - deploy
+
+variables:
+  DOCKER_IMAGE_TAGGED: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+  TARGET_PORT: 8091
+  CONTAINER_PORT: 3000
+
+docker-build:
+  stage: docker
+  image: docker:27
+  services:
+    - docker:27-dind
+  before_script:
+    - echo "$CI_JOB_TOKEN" | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin
+  script:
+    - docker build -t $DOCKER_IMAGE_TAGGED .
+    - docker push $DOCKER_IMAGE_TAGGED
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  before_script:
+    # Install sshpass to handle password authentication
+    - apk add --no-cache openssh-client sshpass
+  script:
+    - |
+      sshpass -p "$DEPLOY_PASSWORD" ssh -o StrictHostKeyChecking=no $DEPLOY_USER@$DEPLOY_HOST "
+        echo '$CI_JOB_TOKEN' | docker login $CI_REGISTRY -u $CI_REGISTRY_USER --password-stdin &&
+        docker pull $DOCKER_IMAGE_TAGGED &&
+        docker stop $CI_PROJECT_NAME || true &&
+        docker rm $CI_PROJECT_NAME || true &&
+        docker run -d \
+          --name $CI_PROJECT_NAME \
+          --restart unless-stopped \
+          --add-host=host.docker.internal:host-gateway \
+          -p $TARGET_PORT:$CONTAINER_PORT \
+          --env-file /opt/configs/$CI_PROJECT_NAME.env \
+          $DOCKER_IMAGE_TAGGED &&
+        docker image prune -af --filter \"until=24h\"
+      "
+  only:
+    - main
