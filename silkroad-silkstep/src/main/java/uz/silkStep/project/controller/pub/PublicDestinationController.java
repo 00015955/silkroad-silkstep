@@ -58,3 +58,4 @@ public class PublicDestinationController {
         return ResponseEntity.ok(destinationReviewService.getListByDestinationId(destinationId));
     }
 }
+// PublicDestinationController → manages public destination-related operations. It has several endpoints:

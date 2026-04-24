@@ -22,3 +22,4 @@ public class PublicTravelTripController {
         return ResponseEntity.ok(travelTripService.getPubAll());
     }
 }
+// PublicTravelTripController → handles public travel trip-related operations. It has a single endpoint /v1/public/travel-trips that accepts GET requests and returns a list of PublicTravelTripResponse objects wrapped in a ResponseEntity. The controller delegates the retrieval of travel trip data to the TravelTripService.

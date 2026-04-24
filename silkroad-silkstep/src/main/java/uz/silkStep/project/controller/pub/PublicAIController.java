@@ -24,3 +24,5 @@ public class PublicAIController {
         return ResponseEntity.ok().contentType(MediaType.APPLICATION_JSON).body(aiService.chat(request));
     }
 }
+
+//PublicAIController → handles AI chat requests. It has a single endpoint /v1/public/ai/chat that accepts POST requests with an AIChatRequest body. The controller delegates the chat processing to the AIService and returns a PublicAIChatResponse wrapped in a ResponseEntity with JSON content type.

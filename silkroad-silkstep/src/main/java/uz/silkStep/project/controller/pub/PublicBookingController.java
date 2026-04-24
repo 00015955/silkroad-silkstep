@@ -33,3 +33,4 @@ public class PublicBookingController {
         return ResponseEntity.ok().build();
     }
 }
+// PublicBookingController → manages public booking operations. It has three endpoints:

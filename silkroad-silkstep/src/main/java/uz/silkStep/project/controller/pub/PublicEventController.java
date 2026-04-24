@@ -32,3 +32,4 @@ public class PublicEventController {
         return ResponseEntity.ok(eventTagService.getPubListByEventId(eventId));
     }
 }
+// PublicEventController → manages public event-related operations. It has two endpoints:

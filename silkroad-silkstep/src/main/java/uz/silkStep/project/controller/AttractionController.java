@@ -62,3 +62,4 @@ public class AttractionController {
         return ResponseEntity.ok(attractionService.getListByDestinationId(destinationId));
     }
 }
+// AttractionController → manages attraction-related operations. It has several endpoints:
