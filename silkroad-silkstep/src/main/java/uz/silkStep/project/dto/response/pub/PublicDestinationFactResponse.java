@@ -13,3 +13,4 @@ public class PublicDestinationFactResponse {
     private String label;
     private String value;
 }
+// PublicDestinationFactResponse → represents a response DTO for a public destination fact, containing fields for the fact's ID, icon URL, label, and value. This DTO is likely used to provide specific information or statistics about a destination in a simplified format for public consumption.

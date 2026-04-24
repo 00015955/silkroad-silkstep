@@ -13,3 +13,4 @@ public class PublicAttractionResponse {
     private String description;
     private String imageUrl;
 }
+// PublicAttractionResponse → represents a response DTO for a public attraction, containing fields for the attraction's ID, name, description, and image URL. This DTO is likely used to provide information about attractions to the public in a simplified format.

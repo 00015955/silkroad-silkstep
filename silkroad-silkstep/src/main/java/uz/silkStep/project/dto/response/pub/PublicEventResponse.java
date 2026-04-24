@@ -16,3 +16,4 @@ public class PublicEventResponse {
     private LocalDate eventDate;
     private String location;
 }
+// PublicEventResponse → represents a response DTO for a public event, containing fields for the event's ID, name, description, image URL, date of the event, and location. This DTO is likely used to provide information about events to the public in a simplified format.

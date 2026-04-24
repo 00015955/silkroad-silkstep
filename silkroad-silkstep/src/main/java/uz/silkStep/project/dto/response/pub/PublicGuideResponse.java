@@ -24,3 +24,4 @@ public class PublicGuideResponse {
     private List<Language> languages;
     private BigDecimal pricePerDay;
 }
+// PublicGuideResponse → represents a response DTO for a public guide, containing fields for the guide's name, description, average rating, list of languages spoken, and price per day. This DTO is likely used to provide information about guides available for booking to the public in a simplified format.

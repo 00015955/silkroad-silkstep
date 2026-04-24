@@ -17,3 +17,4 @@ public class PublicDestinationReviewResponse {
     private String email;
     private LocalDate createdAt;
 }
+// PublicDestinationReviewResponse → represents a response DTO for a public destination review, containing fields for the review's ID, rating, description, reviewer's full name, email, and the date the review was created. This DTO is likely used to provide information about reviews for a destination to the public in a simplified format.

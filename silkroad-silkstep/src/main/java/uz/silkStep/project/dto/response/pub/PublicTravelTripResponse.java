@@ -14,3 +14,4 @@ public class PublicTravelTripResponse {
     private String subtitle;
     private String description;
 }
+// PublicTravelTripResponse → represents a response DTO for a public travel trip, containing fields for the trip's ID, icon URL, title, subtitle, and description. This DTO is likely used to provide information about travel trips to the public in a simplified format.
