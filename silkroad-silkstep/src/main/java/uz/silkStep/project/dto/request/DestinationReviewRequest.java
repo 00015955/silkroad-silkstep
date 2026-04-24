@@ -15,3 +15,4 @@ public class DestinationReviewRequest {
     private String fullName;
     private String email;
 }
+// DestinationReviewRequest → represents a request DTO for submitting a review for a destination, containing the destination ID, rating, review description, reviewer's full name, and email address.

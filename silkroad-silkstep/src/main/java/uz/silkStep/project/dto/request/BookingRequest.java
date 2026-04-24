@@ -20,3 +20,4 @@ public class BookingRequest {
     private Integer durationDays;
     private BigDecimal totalAmount;
 }
+// BookingRequest → represents a request DTO for creating a booking, containing the user's personal information, contact details, tour date, duration, total amount, and the ID of the guide they wish to book with.

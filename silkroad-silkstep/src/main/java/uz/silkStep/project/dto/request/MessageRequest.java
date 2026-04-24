@@ -9,3 +9,4 @@ public class MessageRequest {
     private String translationRu;
     private String translationEn;
 }
+// MessageRequest → represents a request DTO for creating or updating a localized message, containing the message key and its translations in Uzbek, Russian, and English.

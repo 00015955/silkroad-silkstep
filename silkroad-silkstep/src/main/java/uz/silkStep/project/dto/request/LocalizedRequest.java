@@ -19,3 +19,4 @@ public class LocalizedRequest {
 
     private String descriptionRu;
 }
+// LocalizedRequest → serves as a base class for request DTOs that require localized fields, containing common properties for names and descriptions in Uzbek, English, and Russian.

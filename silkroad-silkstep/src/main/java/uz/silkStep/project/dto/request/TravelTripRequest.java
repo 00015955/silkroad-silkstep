@@ -21,3 +21,4 @@ public class TravelTripRequest {
     private String descriptionEn;
     private Integer sortOrder = 0;
 }
+// TravelTripRequest → represents a request DTO for creating or updating a travel trip, containing fields for the trip's icon, localized titles, subtitles, descriptions in Uzbek, Russian, and English, as well as a sort order for display purposes.

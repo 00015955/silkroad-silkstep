@@ -19,3 +19,4 @@ public class UserRequest {
 
     private Role role;
 }
+// UserRequest → represents a request DTO for creating or updating a user, containing fields for login, phone number, full name, password, and role.

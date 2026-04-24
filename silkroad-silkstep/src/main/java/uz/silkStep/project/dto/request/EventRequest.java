@@ -20,3 +20,4 @@ public class EventRequest extends LocalizedRequest {
 
     private String fileName;
 }
+// EventRequest → represents a request DTO for creating or updating an event, containing the event date, location, sort order, and file information.

@@ -27,3 +27,4 @@ public class GuideRequest {
     private String fileName;
     private List<Language> languages;
 }
+// GuideRequest → represents a request DTO for creating or updating a guide, containing the guide's ID, associated destination ID, localized names and descriptions in Uzbek, Russian, and English, price per day, rating, list of included items, availability status, file information for the guide's profile picture or document, and the languages spoken by the guide.

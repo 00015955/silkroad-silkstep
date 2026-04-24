@@ -13,3 +13,4 @@ public class LoginRequest {
 
     private String password;
 }
+// LoginRequest → represents a request DTO for user login, containing the username and password fields.

@@ -17,3 +17,4 @@ public class ConfirmationRequest {
     private UUID bookingId;
     private String otpCode;
 }
+// ConfirmationRequest → represents a request DTO for confirming a booking, containing the booking ID and the OTP code provided by the user for verification.

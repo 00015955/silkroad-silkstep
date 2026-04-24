@@ -16,3 +16,4 @@ public class ReorderRequest {
     @NotNull(message = "SortOrder is must be mot null")
     private Integer sortOrder;
 }
+// ReorderRequest → represents a request DTO for reordering items, containing the ID of the item to be reordered and the new sort order value.

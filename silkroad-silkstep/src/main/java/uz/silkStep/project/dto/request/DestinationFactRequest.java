@@ -18,3 +18,4 @@ public class DestinationFactRequest {
     private String valueEn;
     private Integer sortOrder = 0;
 }
+// DestinationFactRequest → represents a request DTO for creating or updating a destination fact, containing the destination ID, icon, localized labels and values in Uzbek, Russian, and English, as well as the sort order.

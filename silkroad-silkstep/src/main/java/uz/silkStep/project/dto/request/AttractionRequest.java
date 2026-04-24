@@ -18,3 +18,4 @@ public class AttractionRequest extends LocalizedRequest {
 
     private String fileName;
 }
+//AttractionRequest → represents a request DTO for creating or updating an attraction.

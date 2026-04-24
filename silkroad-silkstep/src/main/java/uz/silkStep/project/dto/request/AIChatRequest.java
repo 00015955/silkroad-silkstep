@@ -31,3 +31,4 @@ public class AIChatRequest {
                 '}';
     }
 }
+// AIChatRequest → represents a request for an AI chat response, containing the user's message and an optional destination slug to provide context for the response.

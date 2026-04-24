@@ -30,3 +30,4 @@ public class DestinationRequest extends LocalizedRequest {
     private String fileName;
     private List<StatItem> statItems;
 }
+// DestinationRequest → represents a request DTO for creating or updating a destination, containing the slug, rating, recommended days, sort order, file information, and a list of statistical items related to the destination.
