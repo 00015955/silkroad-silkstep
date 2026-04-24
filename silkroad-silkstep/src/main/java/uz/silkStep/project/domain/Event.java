@@ -34,3 +34,5 @@ public class Event extends LocalizedDescriptionNameEntity {
     @Enumerated(EnumType.STRING)
     private CommonStatus status = CommonStatus.ACTIVE;
 }
+// Event → represents an event entity in the application, which includes details such as the event date, location, image URL, sort order, and status. 
+//It extends LocalizedDescriptionNameEntity, which means it inherits properties for localized names and descriptions in multiple languages.

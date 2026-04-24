@@ -86,3 +86,6 @@ public class TravelTip extends AbstractBaseDomain {
         };
     }
 }
+// TravelTip → represents a travel tip entity in the application. 
+//It contains fields for an icon, multilingual titles, subtitles, and descriptions, as well as a sort order and status. 
+//The getTitle, getSubtitle, and getDescription methods return the appropriate language version based on the current request language, allowing for internationalization of the content.

@@ -44,3 +44,4 @@ public class DestinationReview extends AbstractBaseDomain {
     @Column(name = "description")
     String description;
 }
+// DestinationReview → represents a review left by a user for a specific destination, including a rating and optional description.

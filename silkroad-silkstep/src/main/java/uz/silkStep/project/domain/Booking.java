@@ -55,3 +55,5 @@ public class Booking extends AbstractBaseDomain {
     @JoinColumn(name = "guide_id", insertable = false, updatable = false)
     private Guide guide;
 }
+// Booking → represents a booking made by a user for a tour, including details such as the user's name, contact information, tour date, duration, total amount, booking status, and an optional OTP code for verification. 
+//It also has a relationship with the Guide entity to link the booking to a specific guide.

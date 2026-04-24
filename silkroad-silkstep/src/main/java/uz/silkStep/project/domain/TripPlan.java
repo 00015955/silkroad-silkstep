@@ -57,3 +57,5 @@ public class TripPlan extends AbstractBaseDomain {
         };
     }
 }
+// TripPlan → represents a trip plan entity in the application. 
+//It contains fields for the destination ID, day number, titles in different languages (Uzbek, Russian, English), a list of activities (stored as JSON), and the status of the trip plan.

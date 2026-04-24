@@ -73,3 +73,8 @@ public class User extends AbstractBaseDomain implements UserDetails {
         return login;
     }
 }
+// User → represents a user entity in the application. 
+//It implements the UserDetails interface from Spring Security, allowing it to be used for authentication and authorization purposes. 
+//The class contains fields for login, full name, phone number, status, language preference, password, and role. 
+//The @SQLRestriction and @SQLDelete annotations are used to implement soft deletion by marking records as deleted instead of physically removing them from the database. 
+//The getAuthorities method returns the user's role as a collection of GrantedAuthority objects for use in security contexts.

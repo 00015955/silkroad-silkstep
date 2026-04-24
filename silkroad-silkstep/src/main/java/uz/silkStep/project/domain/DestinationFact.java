@@ -73,3 +73,4 @@ public class DestinationFact extends AbstractBaseDomain {
         };
     }
 }
+// DestinationFact → represents a factual piece of information about a destination, such as its population, area, or historical significance, with support for multiple languages.

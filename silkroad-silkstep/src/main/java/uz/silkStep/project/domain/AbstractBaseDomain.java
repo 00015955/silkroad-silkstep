@@ -43,3 +43,5 @@ public abstract class AbstractBaseDomain implements Serializable {
     @Column(name = "deleted", columnDefinition = "boolean default false")
     private boolean deleted = false;
 }
+// AbstractBaseDomain → serves as a base class for all entities in the application, providing common fields such as id, createdBy, createdAt, updatedBy, updatedAt, and deleted. 
+//This promotes code reuse and consistency across different entities.

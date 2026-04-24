@@ -89,3 +89,5 @@ public class Guide extends AbstractBaseDomain {
         };
     }
 }
+// Guide → represents a guide entity in the application. It contains information about the guide's name, destination, price per day, languages spoken, description, rating, included items, availability, and image URL. 
+//The getName() and getDescription() methods return the name and description based on the current request language.

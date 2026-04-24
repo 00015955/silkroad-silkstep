@@ -25,3 +25,5 @@ public class Message extends AbstractBaseDomain {
 
     private String translation;
 }
+// Message → represents a message entity in the application, which can be used for internationalization (i18n) purposes. 
+//It contains a message key, the language of the message, and the translation of the message in that language.

@@ -54,3 +54,5 @@ public class LocalizedEntity extends AbstractBaseDomain implements Serializable 
         return name;
     }
 }
+// LocalizedEntity → represents an entity that has localized names in different languages (English, Uzbek, Russian). 
+//It provides methods to retrieve the name based on the current request language.

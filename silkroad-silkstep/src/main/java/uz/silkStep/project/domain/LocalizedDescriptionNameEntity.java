@@ -53,3 +53,4 @@ public class LocalizedDescriptionNameEntity extends LocalizedEntity {
         return description;
     }
 }
+// LocalizedDescriptionNameEntity → represents an entity that has both localized names and descriptions in different languages (English, Uzbek, Russian).

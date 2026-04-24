@@ -88,3 +88,5 @@ public class Destination extends LocalizedDescriptionNameEntity {
         );
     }
 }
+// Destination → represents a travel destination, including properties such as slug, image URL, recommended days to visit, status, sort order, and relationships to attractions, reviews, facts, and trip plans. 
+//It also includes a method to calculate the average rating based on associated reviews.

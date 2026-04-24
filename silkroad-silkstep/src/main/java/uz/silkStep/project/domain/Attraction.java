@@ -34,3 +34,5 @@ public class Attraction extends LocalizedDescriptionNameEntity {
     @Enumerated(EnumType.STRING)
     private CommonStatus status = CommonStatus.ACTIVE;
 }
+// Attraction → represents an attraction entity that is associated with a destination. 
+//It includes properties such as the destination ID, image URL, sort order, and status.

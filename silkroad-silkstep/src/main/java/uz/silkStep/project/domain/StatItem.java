@@ -19,3 +19,4 @@ public class StatItem implements Serializable {
     private String value;
     private Map<Language, String> label;
 }
+// StatItem → represents a statistical item that can be used in the application.

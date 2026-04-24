@@ -47,3 +47,4 @@ public class EventTag extends AbstractBaseDomain {
         };
     }
 }
+// EventTag → represents a tag associated with an event, allowing categorization and filtering of events based on tags.
