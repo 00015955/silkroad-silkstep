@@ -54,3 +54,4 @@ public class TripPlanController {
         return ResponseEntity.ok(tripPlanService.getListByDestinationId(destinationId));
     }
 }
+// TripPlanController → manages trip plan operations. It has five endpoints:

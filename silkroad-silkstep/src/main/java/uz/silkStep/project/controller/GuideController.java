@@ -41,3 +41,4 @@ public class GuideController {
         return ResponseEntity.ok(guideService.findById(id));
     }
 }
+// GuideController → manages guide operations. It has four endpoints:

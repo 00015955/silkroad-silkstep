@@ -42,3 +42,4 @@ public class UserController {
         return ResponseEntity.ok(userService.findById(id));
     }
 }
+// UserController → manages user operations. It has four endpoints:

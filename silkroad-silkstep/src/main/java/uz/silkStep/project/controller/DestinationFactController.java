@@ -62,3 +62,4 @@ public class DestinationFactController {
         return ResponseEntity.ok(destinationFactService.getListByDestinationId(destinationId));
     }
 }
+// DestinationFactController → manages destination fact operations. It has six endpoints:

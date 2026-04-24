@@ -57,3 +57,4 @@ public class TravelTripController {
         return ResponseEntity.ok().build();
     }
 }
+// TravelTripController → manages travel trip operations. It has five endpoints:

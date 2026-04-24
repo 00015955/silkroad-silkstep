@@ -36,3 +36,4 @@ public class AuthController {
         authService.logout();
     }
 }
+// AuthController → manages authentication operations. It has three endpoints:

@@ -22,3 +22,6 @@ public class BookingController {
         return ResponseEntity.ok(bookingService.findAll(filter));
     }
 }
+// BookingController → handles booking-related operations. 
+//It has a single endpoint /v1/booking that accepts GET requests and returns a pageable response containing BookingResponse objects wrapped in a ResponseEntity. 
+//The controller delegates the retrieval of booking data to the BookingService, which processes the provided BaseFilter to fetch the relevant bookings.

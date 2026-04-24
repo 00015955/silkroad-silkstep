@@ -57,3 +57,4 @@ public class DestinationController {
         return ResponseEntity.ok().build();
     }
 }
+// DestinationController → manages destination operations. It has five endpoints:

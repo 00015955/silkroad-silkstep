@@ -48,3 +48,4 @@ public class EventTagController {
         return ResponseEntity.ok().build();
     }
 }
+// EventTagController → manages event tag operations. It has five endpoints:

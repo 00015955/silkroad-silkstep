@@ -57,3 +57,4 @@ public class EventController {
         return ResponseEntity.ok().build();
     }
 }
+// EventController → manages event operations. It has five endpoints:

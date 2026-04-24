@@ -28,3 +28,4 @@ public class MessageController {
         messageService.save(request);
     }
 }
+// MessageController → manages message operations. It has two endpoints:

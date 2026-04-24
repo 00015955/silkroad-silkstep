@@ -37,3 +37,4 @@ public class ReportController {
         return ResponseEntity.ok(destinationReviewService.reportAggregate());
     }
 }
+// ReportController → provides endpoints for generating reports related to destinations and events. It has three endpoints:
