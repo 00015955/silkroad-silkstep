@@ -18,3 +18,5 @@ public class MinioConfiguration {
                 .build();
     }
 }
+
+//MinioConfiguration → file storage. 

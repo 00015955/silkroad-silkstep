@@ -37,3 +37,5 @@ public class OpenApiConfiguration {
                 .security(Collections.singletonList(new SecurityRequirement().addList("access_token")));
     }
 }
+
+//OpenApiConfiguration → Swagger docs. This class configures the OpenAPI documentation for the Silk Step API using the Springdoc OpenAPI library. It defines a bean that creates an OpenAPI instance with detailed information about the API, including its title, version, description, contact information, and license. Additionally, it sets up a security scheme for JWT authentication, specifying that the API uses HTTP Bearer tokens in the Authorization header. This configuration allows for automatic generation of API documentation that can be accessed through Swagger UI or other OpenAPI-compatible tools.

@@ -6,11 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import java.net.http.HttpClient;
 import java.time.Duration;
 
-/**
- * Created by: Tilepbaev Dawletbay Ong`arbay uli
- * Date: 08.04.2026 10:23
- **/
-
 
 @Configuration
 public class HttpClientConfig {
@@ -22,3 +17,5 @@ public class HttpClientConfig {
                 .build();
     }
 }
+
+//HttpClientConfig → external API calls. This configuration class defines a bean for the HttpClient, which is used to make HTTP requests to external APIs. The httpClient method creates a new HttpClient instance with a connection timeout of 10 seconds, ensuring that if an external API does not respond within this time frame, the request will fail gracefully. This HttpClient can be injected into any service or component that needs to perform HTTP operations, providing a centralized and consistent way to manage external API calls throughout the application.
