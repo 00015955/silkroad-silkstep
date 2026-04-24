@@ -21,3 +21,5 @@ public interface MessageMapper extends BaseMapper {
     @Mapping(target = "createdBy", ignore = true)
     Message toEntity(String messageKey, Language language, String translation);
 }
+
+// This code defines a MapStruct mapper interface for mapping between Message entities and their corresponding response DTOs, as well as a method for creating a pageable response for messages.

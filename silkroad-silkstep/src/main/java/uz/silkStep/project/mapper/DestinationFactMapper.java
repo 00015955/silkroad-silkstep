@@ -30,3 +30,5 @@ public interface DestinationFactMapper extends BaseMapper {
     @Mapping(target = "createdBy", ignore = true)
     void mapToEntity(@MappingTarget DestinationFact destinationFact, DestinationFactRequest request);
 }
+
+// This code defines a MapStruct mapper interface for mapping between DestinationFact entities and their corresponding request and response DTOs.

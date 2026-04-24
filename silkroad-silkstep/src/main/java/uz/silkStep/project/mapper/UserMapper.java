@@ -31,3 +31,5 @@ public interface UserMapper extends BaseMapper {
     @Mapping(target = "password", ignore = true)
     void mapToEntity(@MappingTarget User user, UserRequest request);
 }
+
+// This code defines a MapStruct mapper interface for mapping between User entities and their corresponding request and response DTOs. It includes methods for converting a UserRequest to a User entity, converting a User entity to a UserResponse, and updating an existing User entity with data from a UserRequest.

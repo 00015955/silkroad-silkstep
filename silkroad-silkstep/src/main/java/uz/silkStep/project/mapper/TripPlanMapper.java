@@ -27,3 +27,5 @@ public interface TripPlanMapper extends BaseMapper {
     @Mapping(target = "createdBy", ignore = true)
     void mapToEntity(@MappingTarget TripPlan tripPlan, TripPlanRequest request);
 }
+
+// This code defines a MapStruct mapper interface for mapping between TripPlan entities and their corresponding request and response DTOs.

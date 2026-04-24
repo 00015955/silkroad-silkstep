@@ -16,3 +16,4 @@ public interface AuthMapper {
     @Mapping(target = "id", source = "id")
     Session toEntity(UUID id, String username, String userAgent, String ipAddress, Long ttl, LocalDateTime createdAt);
 }
+// This code defines a MapStruct mapper interface for mapping between authentication-related data.

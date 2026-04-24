@@ -38,3 +38,7 @@ public interface AttractionMapper extends BaseMapper {
     @Mapping(target = "createdBy", ignore = true)
     void mapToEntity(@MappingTarget Attraction attraction, AttractionRequest request);
 }
+
+// This code defines a MapStruct mapper interface for mapping between Attraction entities and their corresponding request and response DTOs. 
+//It includes methods for converting between AttractionRequest and Attraction, as well as between Attraction and AttractionResponse/PublicAttractionResponse. 
+//The mapper also includes a method for updating an existing Attraction entity with data from an AttractionRequest.

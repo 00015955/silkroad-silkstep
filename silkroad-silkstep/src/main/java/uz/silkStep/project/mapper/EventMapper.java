@@ -37,3 +37,5 @@ public interface EventMapper extends BaseMapper {
     @Mapping(target = "createdBy", ignore = true)
     void mapToEntity(@MappingTarget Event event, EventRequest request);
 }
+
+// This code defines a MapStruct mapper interface for mapping between Event entities and their corresponding request and response DTOs.

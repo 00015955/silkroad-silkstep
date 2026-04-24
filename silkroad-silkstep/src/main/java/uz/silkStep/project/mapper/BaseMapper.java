@@ -16,3 +16,4 @@ public interface BaseMapper {
         return response;
     }
 }
+// This code defines a BaseMapper interface with a default method to convert a Spring Data Page object into a custom PageableResponse object.

@@ -30,3 +30,5 @@ public interface TravelTripMapper extends BaseMapper {
     @Mapping(target = "createdBy", ignore = true)
     void mapToEntity(@MappingTarget TravelTip travelTip, TravelTripRequest request);
 }
+
+// This code defines a MapStruct mapper interface for mapping between TravelTip entities and their corresponding request and response DTOs.
