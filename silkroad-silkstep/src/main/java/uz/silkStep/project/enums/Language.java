@@ -29,3 +29,6 @@ public enum Language implements Serializable {
         return Language.ru;
     }
 }
+
+// Language → represents an enumeration of supported languages in the application, including Russian (ru), Uzbek (uz), and English (en). 
+//The enum provides a method to retrieve a language based on a string code, returning a default language (Russian) if the code is null, empty, or does not match any of the defined languages. This enum is likely used to manage language preferences and localization within the application.

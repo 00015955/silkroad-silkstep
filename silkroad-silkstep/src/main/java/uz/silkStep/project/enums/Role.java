@@ -56,3 +56,6 @@ public enum Role implements Serializable {
         throw new IllegalArgumentException("Invalid JSON value for Role");
     }
 }
+
+// Role → represents an enumeration of user roles in the application, including ADMIN, USER, and REVIEW. Each role has a code and a localized name (EnumLocalization) that provides translations for different languages. 
+//The enum includes methods to retrieve a role based on its code, get a list of admin roles, and create a Role instance from JSON input. This enum is likely used to manage user permissions and access control within the application.
