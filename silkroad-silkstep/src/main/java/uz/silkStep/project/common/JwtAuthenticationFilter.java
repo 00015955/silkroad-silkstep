@@ -118,3 +118,5 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         return ipAddress;
     }
 }
+
+// JwtAuthenticationFilter → checks JWT token 

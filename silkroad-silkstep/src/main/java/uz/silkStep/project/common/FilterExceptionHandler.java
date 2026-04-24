@@ -23,3 +23,5 @@ public class FilterExceptionHandler implements AuthenticationEntryPoint {
         response.getWriter().write(JsonUtils.toJson(errorResponse));
     }
 }
+
+//FilterExceptionHandler → handles auth errors (401) by sending a JSON response with the error message. It implements AuthenticationEntryPoint, which is called when an unauthenticated user tries to access a protected resource. The commence method creates an ErrorBaseResponse, sets the HTTP status to 401, and writes the error message as JSON to the response body.

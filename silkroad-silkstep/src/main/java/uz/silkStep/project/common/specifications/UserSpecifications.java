@@ -41,3 +41,5 @@ public class UserSpecifications {
                 .and(searchByKey(filter.getSearch()));
     }
 }
+
+//UserSpecifications → dynamic filtering for users. It provides methods to create JPA Specifications based on the UserFilter criteria. The hasStatus method creates a specification to filter users by their status, while the searchByKey method creates a specification to search for users by their full name, login, or phone number. The getSpecification method combines these specifications based on the provided UserFilter, allowing for flexible querying of users in the database.

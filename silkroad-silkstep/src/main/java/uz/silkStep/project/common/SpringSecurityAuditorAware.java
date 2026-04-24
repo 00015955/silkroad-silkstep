@@ -30,3 +30,5 @@ public class SpringSecurityAuditorAware implements AuditorAware<User> {
 
     }
 }
+
+//SpringSecurityAuditorAware → tracks who changed DB records. It implements AuditorAware<User>, which is used by Spring Data JPA to automatically populate auditing fields (like createdBy and lastModifiedBy) in entities. The getCurrentAuditor method retrieves the currently authenticated user from the SecurityContext. If there is an authenticated user, it returns that user wrapped in an Optional; otherwise, it returns an empty Optional. This allows the application to automatically associate database changes with the user who made them.
