@@ -104,3 +104,6 @@ public class FileServiceImpl implements FileService {
         return minioService.getDownloadLink(applicationProperties.getMinio().getBucketNames().get(ATTACHMENTS), fileName, 60 * 5);
     }
 }
+
+// The FileServiceImpl class provides implementations for handling file uploads and generating download links using MinIO as the underlying object storage. 
+//It supports both multipart file uploads and Base64-encoded content, ensuring flexibility in how files can be received and stored.

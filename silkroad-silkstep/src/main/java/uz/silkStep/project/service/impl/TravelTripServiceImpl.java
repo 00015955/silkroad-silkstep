@@ -29,6 +29,7 @@ import static uz.silkStep.project.exception.ExceptionType.TRAVEL_TRIP_NOT_FOUND;
  * Created by: Diyora Alieva
  **/
 
+/// This service implementation manages the lifecycle of travel tips, including creation, retrieval,
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor

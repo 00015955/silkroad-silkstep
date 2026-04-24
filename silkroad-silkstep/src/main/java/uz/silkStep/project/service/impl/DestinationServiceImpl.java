@@ -255,3 +255,7 @@ public class DestinationServiceImpl implements DestinationService {
         return reportDestinationResponse;
     }
 }
+
+// This class implements the business logic for managing Destination entities, including creation, updating, status management, reordering, and retrieval. 
+//It interacts with the DestinationRepository for database operations and uses a DestinationMapper to convert between entities and DTOs. 
+//The FileService is used for handling file uploads associated with destinations.

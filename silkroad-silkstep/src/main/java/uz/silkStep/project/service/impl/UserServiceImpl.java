@@ -28,6 +28,7 @@ import java.util.UUID;
  * Created by: Diyora Alieva
  **/
 
+// This service implementation manages user-related operations, including creation, retrieval, and updates.
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
@@ -103,3 +104,4 @@ public class UserServiceImpl implements UserService {
         return userMapper.toPageableResponse(responsePage);
     }
 }
+

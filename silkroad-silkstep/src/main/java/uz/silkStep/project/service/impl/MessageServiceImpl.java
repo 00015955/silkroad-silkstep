@@ -21,6 +21,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.stream.Stream;
 
+/// Created by: Diyora Alieva
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
@@ -154,3 +155,5 @@ public class MessageServiceImpl implements MessageService {
         };
     }
 }
+
+//     * Retrieves a localized message for the given {@link MessageType}.

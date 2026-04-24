@@ -10,6 +10,7 @@ import uz.silkStep.project.service.MailSenderService;
 
 import java.nio.charset.StandardCharsets;
 
+// This class implements the MailSenderService interface and provides functionality to send OTP emails using JavaMailSender.
 @Service
 @RequiredArgsConstructor
 public class MailSenderServiceImpl implements MailSenderService {
@@ -36,3 +37,4 @@ public class MailSenderServiceImpl implements MailSenderService {
         }
     }
 }
+

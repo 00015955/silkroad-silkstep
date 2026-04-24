@@ -213,3 +213,5 @@ public class EventServiceImpl implements EventService {
         return reportEventResponse;
     }
 }
+
+// The EventServiceImpl class provides implementations for managing Event entities, including creation, updating, status changes, reordering, and retrieval.

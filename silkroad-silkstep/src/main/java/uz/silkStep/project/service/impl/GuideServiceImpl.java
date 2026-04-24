@@ -90,3 +90,5 @@ public class GuideServiceImpl implements GuideService {
                 .collect(Collectors.toList());
     }
 }
+
+//     * Updates an existing {@link Guide} based on the provided {@link GuideRequest}.

@@ -177,3 +177,7 @@ public class EventTagServiceImpl implements EventTagService {
                 .toList();
     }
 }
+
+// The EventTagServiceImpl class provides implementations for managing event tags, including creation, updating, retrieval, and status management. 
+//It interacts with the EventRepository to validate event references and the EventTagRepository for CRUD operations on event tags. 
+//The service also includes methods for paginated retrieval and fetching tags associated with specific events, ensuring a comprehensive management of event tag data.

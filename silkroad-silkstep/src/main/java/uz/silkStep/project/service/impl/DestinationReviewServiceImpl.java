@@ -77,3 +77,5 @@ public class DestinationReviewServiceImpl implements DestinationReviewService {
         return destinationReviewRepository.getAverageRating();
     }
 }
+
+// This service implementation provides methods to create new destination reviews, retrieve reviews for a specific destination, and calculate the average rating across all reviews. It handles necessary validations and interactions with the underlying repositories.

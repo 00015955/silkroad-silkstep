@@ -12,6 +12,7 @@ import uz.silkStep.project.service.MinioService;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
+// This class implements the MinioService interface and provides methods for uploading and downloading files to/from an object storage service using the MinioClient.
 @Service
 @RequiredArgsConstructor
 public class MinioServiceImpl implements MinioService {
@@ -128,3 +129,6 @@ public class MinioServiceImpl implements MinioService {
         }
     }
 }
+
+/// The MinioServiceImpl class provides concrete implementations for file upload and download operations using the MinioClient. 
+//It handles both content-type-aware and content-type-agnostic uploads, as well as generating pre-signed URLs for secure file access.

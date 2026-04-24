@@ -29,6 +29,7 @@ import static uz.silkStep.project.exception.ExceptionType.TRIP_PLAN_NOT_FOUND;
  * Created by: Diyora Alieva
  **/
 
+//
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
@@ -172,3 +173,5 @@ public class TripPlanServiceImpl implements TripPlanService {
                 .toList();
     }
 }
+
+//     * Retrieves a list of {@link TripPlan} records associated with a specific destination.
