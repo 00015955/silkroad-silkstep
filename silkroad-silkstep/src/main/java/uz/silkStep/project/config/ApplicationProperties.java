@@ -42,3 +42,5 @@ public class ApplicationProperties {
         private String url;
     }
 }
+
+//ApplicationProperties → config (JWT, MinIO, AI). This class is a configuration properties holder for the application. It uses Spring Boot's @ConfigurationProperties to bind properties from the application's configuration files (like application.yml or application.properties) to Java objects. The class contains nested static classes for different configuration sections: Auth for JWT token settings, Minio for MinIO storage settings, and Gemini for AI-related settings. Each nested class has fields corresponding to specific configuration properties, allowing for easy access to these properties throughout the application.

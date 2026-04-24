@@ -99,3 +99,5 @@ public class SecurityConfiguration {
         return new BCryptPasswordEncoder();
     }
 }
+
+//SecurityConfiguration → JWT, protected routes, CORS, and auth error handling. It configures Spring Security to use JWT for authentication, defines which routes are protected and which are public, sets up CORS to allow requests from any origin, and specifies how to handle authentication errors by using the FilterExceptionHandler. It also defines beans for UserDetailsService, AuthenticationProvider, AuthenticationManager, and PasswordEncoder to support user authentication and password encoding.
