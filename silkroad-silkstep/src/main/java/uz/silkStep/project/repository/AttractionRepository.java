@@ -15,3 +15,5 @@ public interface AttractionRepository extends JpaRepository<Attraction, UUID> {
 
     List<Attraction> findAllByDestinationIdAndStatusOrderBySortOrderAsc(UUID destinationId, CommonStatus status);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the Attraction entity.

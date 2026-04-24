@@ -24,3 +24,5 @@ public interface DestinationRepository extends JpaRepository<Destination, UUID> 
     @Query(value = "SELECT count(d.id) FROM destination d WHERE d.status = 'ACTIVE' AND d.created_at >= DATE_TRUNC('month', NOW())", nativeQuery = true)
     long countByBetweenDate();
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the Destination entity.

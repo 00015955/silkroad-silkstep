@@ -15,3 +15,6 @@ public interface MessageRepository extends JpaRepository<Message, UUID> {
 
     List<Message> findByMessageKey(String messageKey);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the Message entity. 
+//It also includes custom query methods to find messages by their key and language.

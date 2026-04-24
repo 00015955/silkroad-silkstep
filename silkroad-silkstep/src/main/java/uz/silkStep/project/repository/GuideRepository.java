@@ -13,3 +13,5 @@ public interface GuideRepository extends JpaRepository<Guide, UUID> {
 
     List<Guide> findAllByDestinationId(UUID destinationId);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the Guide entity.

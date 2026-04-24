@@ -13,3 +13,6 @@ public interface TravelTipRepository extends JpaRepository<TravelTip, UUID> {
 
     List<TravelTip> findAllByStatusOrderBySortOrderAsc(CommonStatus status);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the TravelTip entity. 
+//Additionally, it includes a method to find all travel tips by their status and order them by their sort order in ascending order.

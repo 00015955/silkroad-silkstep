@@ -14,3 +14,6 @@ public interface EventTagRepository extends JpaRepository<EventTag, UUID> {
 
     List<EventTag> findAllByEventIdAndStatusOrderById(UUID eventId, CommonStatus status);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the EventTag entity. 
+//It also includes custom query methods to find EventTags by event ID and status.

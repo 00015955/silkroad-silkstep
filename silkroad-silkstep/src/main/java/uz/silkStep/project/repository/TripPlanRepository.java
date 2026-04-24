@@ -12,3 +12,6 @@ public interface TripPlanRepository extends JpaRepository<TripPlan, UUID> {
 
     List<TripPlan> findAllByDestinationIdOrderByIdAsc(UUID destinationId);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the TripPlan entity. 
+//Additionally, it includes a method to find all trip plans associated with a specific destination, ordered by their ID in ascending order.

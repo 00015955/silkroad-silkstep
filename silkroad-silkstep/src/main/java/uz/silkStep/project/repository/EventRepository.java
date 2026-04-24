@@ -17,3 +17,6 @@ public interface EventRepository extends JpaRepository<Event, UUID> {
     @Query(value = "SELECT count(e.id) FROM events e WHERE e.status = 'ACTIVE' AND e.created_at >= DATE_TRUNC('month', NOW())", nativeQuery = true)
     long countByBetweenDate();
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the Event entity. 
+//It also includes a method to find all events by their status and a custom query to count the number of active events created in the current month.

@@ -19,3 +19,6 @@ public interface DestinationReviewRepository extends JpaRepository<DestinationRe
     @Query("SELECT COALESCE(AVG(r.rating), 0) FROM DestinationReview r")
     BigDecimal getAverageRating();
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the DestinationReview entity. 
+//It also includes a custom query to calculate the average rating of all reviews.

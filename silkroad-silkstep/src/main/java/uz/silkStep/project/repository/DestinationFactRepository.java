@@ -16,3 +16,5 @@ public interface DestinationFactRepository extends JpaRepository<DestinationFact
 
     List<DestinationFact> findAllByDestinationIdAndStatusOrderBySortOrder(UUID destinationId, CommonStatus status);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the DestinationFact entity.

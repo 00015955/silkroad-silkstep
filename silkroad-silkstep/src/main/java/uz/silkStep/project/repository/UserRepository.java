@@ -17,3 +17,5 @@ public interface UserRepository extends JpaRepository<User, UUID>, JpaSpecificat
 
     Optional<User> findByLogin(String login);
 }
+
+// This interface extends JpaRepository, which provides basic CRUD operations for the User entity.
