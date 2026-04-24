@@ -29,3 +29,6 @@ public class Handler {
         return ResponseEntity.status(e.getStatus()).body(response);
     }
 }
+
+// Handler → a global exception handler for the application. 
+//It uses @RestControllerAdvice to intercept exceptions thrown by controllers and handle them in a centralized manner.

@@ -26,3 +26,7 @@ public enum ExceptionType {
     EXISTS_SLUG_ALREADY,
 
 }
+
+// ExceptionType → an enum that defines various types of exceptions that can occur in the application. 
+//Each constant represents a specific type of exception, such as not finding a user, destination, attraction, or guide, as well as issues related to login attempts, OTP code mismatches, and token validity. 
+//This enum is used to standardize the representation of different exception scenarios across the application.
