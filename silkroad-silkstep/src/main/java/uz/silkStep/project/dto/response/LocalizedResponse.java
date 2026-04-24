@@ -15,3 +15,4 @@ public class LocalizedResponse {
     private String descriptionEn;
     private String descriptionRu;
 }
+// LocalizedResponse → represents a base response DTO for localized content, containing fields for the name and description in three languages: Uzbek (Uz), English (En), and Russian (Ru). This class can be extended by other response DTOs that require localized fields.

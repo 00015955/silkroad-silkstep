@@ -16,3 +16,4 @@ public class AttractionResponse extends LocalizedResponse {
     private Integer sortOrder;
     private CommonStatus status;
 }
+// AttractionResponse → represents a response DTO for an attraction, containing fields for the attraction's ID, localized name and description, image URL, sort order, and status.

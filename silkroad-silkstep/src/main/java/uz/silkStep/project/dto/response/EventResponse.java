@@ -18,3 +18,4 @@ public class EventResponse extends LocalizedResponse {
     private String location;
     private CommonStatus status;
 }
+// EventResponse → represents a response DTO for an event, containing fields for the event's ID, localized name and description, image URL, date of the event, location, and status.

@@ -20,3 +20,4 @@ public class TripPlanResponse {
     private String titleEn;
     private String titleRu;
 }
+// TripPlanResponse → represents a response DTO for a trip plan, containing fields for the trip plan's ID, localized title, day number, status, and a list of activities. The title field is provided in three languages: Uzbek (Uz), English (En), and Russian (Ru).

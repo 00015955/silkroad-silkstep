@@ -17,3 +17,4 @@ public class EventTagResponse {
     private String tagRu;
     private String tagEn;
 }
+// EventTagResponse → represents a response DTO for an event tag, containing fields for the tag's ID, localized tag name, and status. The tag field is provided in three languages: Uzbek (Uz), Russian (Ru), and English (En).

@@ -23,3 +23,4 @@ public class DestinationResponse extends LocalizedResponse {
     private Integer sortOrder;
     private List<StatItem> statItems;
 }
+// DestinationResponse → represents a response DTO for a destination, containing fields for the destination's ID, slug, localized name and description, image URL, rating, recommended days for visiting, status, sort order, and a list of statistical items related to the destination.

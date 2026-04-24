@@ -23,3 +23,4 @@ public class DestinationFactResponse {
     private String valueRu;
     private String valueEn;
 }
+//  DestinationFactResponse → represents a response DTO for a destination fact, containing fields for the fact's ID, icon, localized label and value, and status. The label and value fields are provided in three languages: Uzbek (Uz), Russian (Ru), and English (En).

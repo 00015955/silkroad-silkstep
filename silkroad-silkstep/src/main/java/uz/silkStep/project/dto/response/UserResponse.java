@@ -18,3 +18,4 @@ public class UserResponse {
     private UserStatus status;
     private LocalDateTime createdAt;
 }
+// UserResponse → represents a response DTO for user information, containing fields for the user's ID, login, phone number, full name, role, status, and the timestamp of when the user was created. This class is typically used to return user details in API responses.

@@ -29,3 +29,4 @@ public class GuideResponse {
     private String descriptionRu;
     private String descriptionEn;
 }
+// GuideResponse → represents a response DTO for a guide, containing fields for the guide's ID, associated destination ID, localized name and description, price per day, rating, availability status, image URL, list of languages spoken by the guide, and a list of items included in the guide's services. The name and description fields are provided in three languages: Uzbek (Uz), Russian (Ru), and English (En).

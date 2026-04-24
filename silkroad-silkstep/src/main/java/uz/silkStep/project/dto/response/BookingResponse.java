@@ -20,3 +20,4 @@ public class BookingResponse {
     private Integer durationDays;
     private BookingStatus status;
 }
+// BookingResponse → represents a response DTO for a booking, containing fields for the customer's first name, last name, email, phone number, the ID of the guide associated with the booking, the date of the tour, the duration of the tour in days, and the status of the booking.

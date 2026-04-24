@@ -26,3 +26,4 @@ public class TravelTripResponse {
     private String descriptionEn;
     private String descriptionRu;
 }
+// TravelTripResponse → represents a response DTO for a travel trip, containing fields for the trip's ID, icon URL, localized title, subtitle, description, and status. The title, subtitle, and description fields are provided in three languages: Uzbek (Uz), English (En), and Russian (Ru).

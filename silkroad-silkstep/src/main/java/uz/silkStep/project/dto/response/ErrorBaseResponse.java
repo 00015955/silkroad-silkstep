@@ -10,3 +10,4 @@ import lombok.Setter;
 public class ErrorBaseResponse {
     private String message;
 }
+// ErrorBaseResponse → represents a base response DTO for error messages, containing a single field for the error message.
