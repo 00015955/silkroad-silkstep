@@ -16,11 +16,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.function.Function;
 
-/**
- * Created by: Tilepbaev Dawletbay Ong`arbay uli
- * Date: 07.04.2026 17:20
- **/
-
+/// AIServiceImpl is responsible for handling AI chat interactions related to Uzbekistan travel.
 @Slf4j
 @Service
 @RequiredArgsConstructor

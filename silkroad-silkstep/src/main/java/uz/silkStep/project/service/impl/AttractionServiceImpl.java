@@ -34,6 +34,7 @@ import static uz.silkStep.project.exception.ExceptionType.ATTRACTION_NOT_FOUND;
  * Created by: Diyora Alieva
  **/
 
+// This service implementation provides methods to manage Attraction entities, including creation, updating, retrieval, status updates, and reordering.
 @Service
 @Transactional(readOnly = true)
 @RequiredArgsConstructor
@@ -199,3 +200,6 @@ public class AttractionServiceImpl implements AttractionService {
                 .toList();
     }
 }
+// This class implements the AttractionService interface, providing concrete implementations for all defined methods. 
+//It uses repositories to interact with the database and a mapper to convert between entities and DTOs. 
+//The service also handles file uploads for attraction images and ensures proper error handling through custom exceptions.

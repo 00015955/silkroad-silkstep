@@ -80,3 +80,7 @@ public class AuthServiceImpl implements AuthService {
         jwtService.logout(accessToken);
     }
 }
+
+// The AuthServiceImpl class provides implementations for user authentication, token generation, token refreshing, and logout functionality. 
+//It interacts with the UserRepository to manage user data and the JwtService to handle JWT token operations. 
+//The service ensures that only valid tokens are accepted and that user sessions are properly managed during login and logout processes.

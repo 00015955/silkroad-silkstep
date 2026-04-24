@@ -213,3 +213,6 @@ public class DestinationFactServiceImpl implements DestinationFactService {
                 .toList();
     }
 }
+
+// The DestinationFactServiceImpl class provides implementations for managing destination facts, including creation, updating, retrieval, status management, and reordering. 
+//It ensures transactional integrity and proper exception handling throughout its operations.

@@ -25,6 +25,9 @@ import uz.silkStep.project.utils.GenerateOtpUtils;
 import java.util.List;
 import java.util.UUID;
 
+// This service implementation provides methods to manage Booking entities, including creation, retrieval, and confirmation of bookings. 
+//It interacts with the BookingRepository for data persistence, GuideRepository and DestinationRepository for fetching related data, and MailSenderService for sending OTP codes via email. 
+//The BookingMapper is used to convert between entity and response DTOs.
 
 @Service
 @AllArgsConstructor
@@ -91,3 +94,5 @@ public class BookingServiceImpl implements BookingService {
         bookingRepository.save(booking);
     }
 }
+
+/// The create method generates a new booking based on the provided BookingRequest, generates an OTP code, sends it via email, and saves the booking with a PENDING status.
