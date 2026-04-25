@@ -187,5 +187,5 @@ function useToast() {
     dismiss: (toastId?: string) => dispatch({ type: 'DISMISS_TOAST', toastId }),
   }
 }
-
+// The useToast hook is used to manage the state of toasts in the application.
 export { useToast, toast }

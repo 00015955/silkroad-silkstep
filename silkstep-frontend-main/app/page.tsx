@@ -17,3 +17,6 @@ export default function HomePage() {
     </main>
   )
 }
+
+// The HomePage component is the main component of the application. 
+//It is responsible for rendering the different sections of the homepage, such as the navbar, hero section, destinations section, events section, essentials section, and footer.

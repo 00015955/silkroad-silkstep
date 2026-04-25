@@ -1213,3 +1213,8 @@ export default function DestinationDetailPage() {
     </div>
   );
 }
+
+// Helper functions to map icon names to actual icons for facts and travel trips sections 
+//This allows the backend to specify an icon name and the frontend will render the appropriate icon based on the name. 
+//It also provides a default icon if no match is found. 
+// This makes the UI more dynamic and allows for easy addition of new icons in the future by simply updating these mapping functions.

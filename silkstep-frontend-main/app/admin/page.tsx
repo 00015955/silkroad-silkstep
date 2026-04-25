@@ -133,3 +133,7 @@ export default function AdminDashboard() {
     </div>
   )
 }
+
+// This is a simple admin dashboard page for the Silkstep travel platform. 
+//It includes a header, a grid of key statistics, and sections for recent activity and quick actions. 
+//The design uses the existing UI components and color scheme to maintain a cohesive look and feel.

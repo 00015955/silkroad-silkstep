@@ -17,3 +17,4 @@ export function useIsMobile() {
 
   return !!isMobile
 }
+// the useIsMobile hook is used to determine if the user is on a mobile device or not. 

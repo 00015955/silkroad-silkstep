@@ -317,3 +317,7 @@ export default function DestinationsPage() {
     </div>
   )
 }
+
+// This page provides a comprehensive interface for managing the destinations featured on the SilkStep website. 
+//Admins can view, search, add, edit, and delete destination entries, each of which includes details like name, description, image, rating, duration, UNESCO status, highlights, and publication status. 
+//The design emphasizes usability and clarity while maintaining a visually appealing layout consistent with the overall admin dashboard.

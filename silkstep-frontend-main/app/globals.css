@@ -83,6 +83,7 @@
   --sidebar-ring: #4A9BC5;
 }
 
+
 @theme inline {
   --font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
   --font-serif: var(--font-playfair), 'Playfair Display', Georgia, serif;
@@ -134,3 +135,5 @@
     @apply bg-background text-foreground;
   }
 }
+
+

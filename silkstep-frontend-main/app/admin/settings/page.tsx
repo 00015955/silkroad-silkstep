@@ -153,3 +153,6 @@ export default function SettingsPage() {
     </div>
   )
 }
+
+// This page provides a settings interface for the admin to configure site settings, iTicket integration, and notifications. 
+//It uses state to show a temporary "Saved!" message when the save button is clicked.

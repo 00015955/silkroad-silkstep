@@ -344,3 +344,8 @@ export default function EventsPage() {
     </div>
   )
 }
+
+
+// This page provides a comprehensive interface for managing cultural events. 
+//It includes features for adding, editing, and deleting events, as well as searching and filtering through the list of events. 
+//The design is clean and user-friendly, making it easy for administrators to keep the event information up-to-date and organized.

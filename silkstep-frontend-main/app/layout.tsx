@@ -55,3 +55,7 @@ export default function RootLayout({
     </html>
   )
 }
+
+//layout.tsx is the root layout component for the application. 
+//It defines the HTML structure of the page and includes the necessary providers and analytics. 
+//The layout also sets up the fonts and metadata for the application.

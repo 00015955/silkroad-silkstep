@@ -127,3 +127,9 @@ export default function AdminLayout({
     </div>
   )
 }
+
+
+// This layout component provides a responsive sidebar navigation for the admin panel. 
+//It includes links to the dashboard, events, destinations, and settings pages. 
+//The sidebar can be toggled on mobile devices, and the active link is highlighted based on the current pathname. 
+//The main content area is displayed to the right of the sidebar, with a sticky top bar for additional navigation or user info.
