@@ -98,3 +98,7 @@ export function HeroSection() {
     </>
   );
 }
+// The HeroSection component serves as the captivating introduction to the Silkroad website, designed to immediately engage visitors with its visually striking layout and compelling content. 
+//It features a prominent headline that highlights the unique blend of history and culture that Silkroad offers, accompanied by a subtext that invites users to explore further. 
+//The section includes two primary call-to-action buttons: one that smoothly scrolls users down to the Destinations section, and another that opens an AI-powered chat guide for personalized assistance. 
+//Additionally, key statistics about Silkroad are displayed in an eye-catching format to build credibility and excitement. Decorative elements such as background patterns and gradients enhance the overall aesthetic without overwhelming the content.

@@ -81,3 +81,6 @@ export function Navbar() {
     </header>
   )
 }
+// The Navbar component is a responsive navigation bar that includes a logo, navigation links, and a language switcher. 
+//It uses state to manage the visibility of the mobile menu and includes accessibility features such as aria-labels. 
+//The design is consistent with the overall aesthetic of the SilkStep website, utilizing Tailwind CSS for styling.

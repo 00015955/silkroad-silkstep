@@ -22,7 +22,7 @@ export function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
-  // Tashqarini bosganda yopish
+  // closing dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
@@ -88,3 +88,7 @@ export function LanguageSwitcher() {
     </div>
   );
 }
+// This component provides a language switcher dropdown that allows users to select their preferred language. 
+//It uses the `useI18n` hook to get the current locale and a function to update it. 
+//The dropdown is toggled by clicking the button, and it closes when clicking outside of it. 
+//Each language option displays a country flag and a label.

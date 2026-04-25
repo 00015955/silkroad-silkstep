@@ -302,3 +302,4 @@ export function EventsSection() {
     </section>
   );
 }
+// Note: The above code assumes that the API endpoints return data in the expected format and that the localization keys are properly defined in the translation files. Adjustments may be needed based on the actual API responses and translation structure.

@@ -10,3 +10,5 @@ export function Providers({ children }: { children: ReactNode }) {
     </I18nProvider>
   )
 }
+
+// This component is used in the root layout to wrap the entire application with the I18nProvider, ensuring that translations are available throughout the app.

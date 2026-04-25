@@ -18,11 +18,11 @@ interface AIChatProps {
   destinationSlug?: string;
 }
 
-// HTML tag'larni tozalash yoki chiroyli ko'rsatish uchun funksiya
+
 const formatMessage = (text: string): string => {
   if (!text) return "";
   
-  // HTML tag'larni saqlab, chiroyli ko'rinishga keltirish
+  // to make HTML presentation better, we can replace some tags with Tailwind classes:
   // <h3> -> <div class="font-bold">
   // <p> -> <div>
   // <ul>, <li> -> <ul class="list-disc ml-4">
@@ -45,7 +45,7 @@ const formatMessage = (text: string): string => {
   return formatted;
 };
 
-// Plain text version (taglarsiz) - agar kerak bo'lsa
+// Plain text version 
 const stripHtmlTags = (text: string): string => {
   if (!text) return "";
   return text.replace(/<[^>]*>/g, '');
@@ -96,7 +96,7 @@ export function AIChat({ isOpen, onClose, destinationSlug }: AIChatProps) {
     try {
       const data = await sendAIChat(userMessage.text, destinationSlug, locale);
 
-      // AI javobini HTML formatda saqlaymiz
+      // AI answers in HTML format, but we can also keep a plain text version for better presentation if needed
       const aiMessage: Message = {
         id: (Date.now() + 1).toString(),
         text: data.message || "I'm here to help! What would you like to know?",
@@ -250,3 +250,6 @@ export function AIChat({ isOpen, onClose, destinationSlug }: AIChatProps) {
     </>
   );
 }
+// AIChat component provides an interactive chat interface for users to ask questions about traveling in Uzbekistan. 
+//It handles user input, displays messages from both the user and the AI assistant, and manages the chat window's open/close state. 
+//The AI responses are formatted to support basic HTML tags for better presentation.

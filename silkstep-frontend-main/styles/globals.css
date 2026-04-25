@@ -123,3 +123,8 @@
     @apply bg-background text-foreground;
   }
 }
+/* This file is used to define global styles and CSS variables for the Silkstep frontend application. 
+It imports Tailwind CSS and a custom animation library, and sets up color schemes for both light and dark themes using CSS variables. 
+The colors are defined in the Oklch color space, which allows for more perceptually uniform color adjustments. 
+The file also defines custom properties for fonts, colors, and border radii that can be used throughout the application. 
+Additionally, it applies some base styles to all elements and the body of the document. */

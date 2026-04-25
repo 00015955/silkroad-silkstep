@@ -86,7 +86,7 @@
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-starter-model-anthropic</artifactId>
-            <version>1.0.0</version>  <!-- yoki eng so'nggi versiya -->
+            <version>1.0.0</version>  <!-- last ver -->
         </dependency>
         <dependency>
             <groupId>com.vladmihalcea</groupId>

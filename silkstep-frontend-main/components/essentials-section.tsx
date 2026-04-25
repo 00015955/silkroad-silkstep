@@ -104,3 +104,5 @@ export function EssentialsSection() {
     </section>
   )
 }
+// This component creates an "Essentials" section with a header and a grid of cards, each representing a different essential item. 
+//The cards include an icon, title, value, and description, all styled with Tailwind CSS for a modern and cohesive look.

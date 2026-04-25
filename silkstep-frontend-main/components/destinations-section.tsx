@@ -231,3 +231,6 @@ export function DestinationsSection() {
     </section>
   );
 }
+// This component fetches and displays a list of travel destinations in a responsive grid layout. 
+//It includes loading and error states, as well as a "Show More" button to reveal additional destinations if there are more than the initial visible count. 
+//Each destination card includes an image, name, description, rating, and recommended days to visit.
