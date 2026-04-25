@@ -35,3 +35,5 @@ public interface DestinationFactService {
 
     List<PublicDestinationFactResponse> getPubListByDestinationId(UUID destinationId);
 }
+
+// This interface defines the contract for the DestinationFactService, which includes methods for creating, updating, and retrieving destination facts, as well as managing their status and order.

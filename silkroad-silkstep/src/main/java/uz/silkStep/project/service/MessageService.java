@@ -17,3 +17,4 @@ public interface MessageService {
 
     void save(MessageRequest request);
 }
+/// The MessageService interface defines a contract for managing messages within the application, including retrieving messages based on exception types or message types, finding all messages with pagination support, and saving new messages.

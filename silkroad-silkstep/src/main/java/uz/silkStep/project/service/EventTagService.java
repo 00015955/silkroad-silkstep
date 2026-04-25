@@ -32,3 +32,7 @@ public interface EventTagService {
 
     List<PublicEventTagResponse> getPubListByEventId(UUID eventId);
 }
+
+/// The EventTagService interface defines the contract for managing event tags in the application. 
+//It includes methods for creating and updating event tags, changing their status, and retrieving event tag information based on various criteria. 
+//The service allows for both administrative operations (like updating and changing status) and public retrieval of event tags associated with specific events.

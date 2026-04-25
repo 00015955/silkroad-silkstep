@@ -25,3 +25,4 @@ public interface TripPlanService {
 
     List<TripPlanResponse> getListByDestinationId(UUID destinationId);
 }
+/// The TripPlanService interface defines the contract for managing trip plans in the application, including creating, updating, retrieving, and changing the status of trip plans, as well as fetching trip plans based on specific criteria such as destination ID.

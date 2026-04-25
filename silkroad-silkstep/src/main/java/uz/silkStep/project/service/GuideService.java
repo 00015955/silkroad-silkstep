@@ -24,3 +24,6 @@ public interface GuideService {
 
     List<GuideResponse> getAll();
 }
+/// The GuideService interface defines the contract for managing guides in the application. 
+//It includes methods for creating and updating guides, retrieving guide information by ID, and fetching lists of guides based on filtering criteria or retrieving all guides. 
+//This service is essential for handling operations related to guides, such as tour guides or informational guides, within the Silk Step project.

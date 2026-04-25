@@ -16,6 +16,7 @@ import java.util.UUID;
  * Created by: Diyora Alieva
  **/
 
+// Service interface for managing events, including creation, updating, status changes, reordering, and retrieval of event information and statistics.
 public interface EventService {
 
     void create(EventRequest request);

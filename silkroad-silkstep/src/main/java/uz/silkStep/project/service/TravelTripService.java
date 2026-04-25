@@ -33,3 +33,4 @@ public interface TravelTripService {
 
     List<PublicTravelTripResponse> getPubAll();
 }
+/// The TravelTripService interface defines the contract for managing travel trips in the application.

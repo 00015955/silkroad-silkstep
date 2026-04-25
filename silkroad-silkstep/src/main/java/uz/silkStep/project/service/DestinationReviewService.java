@@ -11,6 +11,7 @@ import java.util.UUID;
  * Created by: Diyora Alieva
  **/
 
+
 public interface DestinationReviewService {
 
     void create(DestinationReviewRequest request);

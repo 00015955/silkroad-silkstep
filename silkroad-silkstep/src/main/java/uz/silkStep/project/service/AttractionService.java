@@ -35,3 +35,6 @@ public interface AttractionService {
 
     List<PublicAttractionResponse> getPublicListByDestinationId(UUID destinationId);
 }
+
+//  This interface defines the contract for the AttractionService, which includes methods for creating, updating, and retrieving attractions, as well as managing their status and order. 
+//The service also provides methods to fetch attractions based on filters and destination IDs, both for internal use and public-facing responses.

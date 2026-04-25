@@ -13,3 +13,7 @@ public interface AuthService {
 
     void logout();
 }
+
+// This interface defines the contract for an authentication service. 
+//It includes methods for generating a token based on user login credentials, refreshing an existing token, and logging out. 
+//The methods take in specific request objects and an HTTP response to manage the authentication process effectively.

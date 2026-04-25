@@ -21,3 +21,4 @@ public interface UserService {
 
     PageableResponse<UserResponse> findAll(UserFilter filter);
 }
+/// The UserService interface defines the contract for managing user-related operations in the application, including creating, editing, retrieving, and listing users based on specified filters.

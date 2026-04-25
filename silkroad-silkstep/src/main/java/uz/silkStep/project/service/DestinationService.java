@@ -17,6 +17,7 @@ import java.util.UUID;
  * Created by: Diyora Alieva
  **/
 
+/// Service interface for managing destinations, including creation, updating, status changes, reordering, and retrieval of destination information and statistics.
 public interface DestinationService {
 
     void create(DestinationRequest request);
@@ -39,3 +40,4 @@ public interface DestinationService {
 
     ReportDestinationResponse getReport();
 }
+
