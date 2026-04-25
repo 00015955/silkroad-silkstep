@@ -2,6 +2,7 @@ package uz.silkStep.project.utils;
 
 import lombok.experimental.UtilityClass;
 
+
 @UtilityClass
 public class FileUtils {
 
@@ -19,3 +20,7 @@ public class FileUtils {
     }
 
 }
+
+// This utility class provides a method to extract the file extension from a given filename. 
+//It checks for null or blank filenames and handles cases where there is no extension or the filename ends with a dot. 
+//The extracted extension is returned in lowercase for consistency.

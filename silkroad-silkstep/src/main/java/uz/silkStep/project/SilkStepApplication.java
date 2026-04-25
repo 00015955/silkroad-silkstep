@@ -14,3 +14,6 @@ public class SilkStepApplication {
 		SpringApplication.run(SilkStepApplication.class, args);
 	}
 }
+
+// This is the main application class for the SilkStep project. 
+//It is annotated with @SpringBootApplication, which indicates that it is a Spring Boot application.

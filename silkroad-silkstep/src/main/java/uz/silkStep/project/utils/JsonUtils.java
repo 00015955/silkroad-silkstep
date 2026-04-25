@@ -50,3 +50,4 @@ public class JsonUtils {
         return mapper.convertValue(fromValue, toValueType);
     }
 }
+// This utility class provides methods for JSON serialization and deserialization using the Jackson library.

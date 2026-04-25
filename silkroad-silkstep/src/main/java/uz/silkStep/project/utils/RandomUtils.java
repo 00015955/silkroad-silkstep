@@ -92,3 +92,6 @@ public final class RandomUtils {
         return result;
     }
 }
+
+// This utility class provides methods for generating random passwords, activation keys, SMS activation keys, reset keys, and pin codes using the Apache Commons Lang library. 
+//It also includes a method to calculate the order of items in a Kanban board based on their previous and next order values.

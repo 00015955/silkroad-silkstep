@@ -13,3 +13,4 @@ public class GenerateOtpUtils {
         return String.valueOf(otp);
     }
 }
+// This utility class provides a method to generate a 6-digit One-Time Password (OTP) using a secure random number generator.

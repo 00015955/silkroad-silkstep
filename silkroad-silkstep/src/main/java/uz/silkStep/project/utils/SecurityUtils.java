@@ -50,3 +50,6 @@ public final class SecurityUtils {
         return null;
     }
 }
+
+// This utility class provides methods to retrieve the current authenticated user, determine the language of the current request, get the locale, create HTTP headers for JSON content, and access the current HTTP request. 
+//It uses Spring Security to access the authentication context and Spring's RequestContextHolder to access the current request attributes.
