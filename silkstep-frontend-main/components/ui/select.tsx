@@ -170,7 +170,11 @@ function SelectScrollDownButton({
     </SelectPrimitive.ScrollDownButton>
   )
 }
-
+// the select component is a wrapper around the radix select component, it provides a consistent API and styling for the select component in the application and it also provides a way to customize the select component by passing props to the select component and its subcomponents. 
+//the select component is composed of several subcomponents such as select trigger, select content, select item, select label, select separator, select scroll up button and select scroll down button. 
+//these subcomponents can be used to build a custom select component that fits the needs of the application. 
+//the select component also provides a way to customize the styling of the select component by passing className prop to the select component and its subcomponents. 
+//this allows for a high level of customization while still maintaining a consistent API and styling for the select component in the application.
 export {
   Select,
   SelectContent,

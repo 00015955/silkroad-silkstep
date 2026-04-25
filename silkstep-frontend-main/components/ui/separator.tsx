@@ -24,5 +24,6 @@ function Separator({
     />
   )
 }
-
+// the seperator is used to separate different sections of the UI, such as the header and the main content, or the main content and the footer. 
+//It can also be used to separate different items in a list or a menu.
 export { Separator }

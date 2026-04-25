@@ -116,6 +116,10 @@ type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>
 
 type ToastActionElement = React.ReactElement<typeof ToastAction>
 
+// The Toast component is used to display brief messages to the user. 
+//It can be used to show success messages, error messages, or any other type of notification. 
+//The Toast component can be customized with different variants, such as a destructive variant for error messages. 
+//The Toast component also includes an action button that can be used to perform an action related to the message, such as undoing an action or retrying a failed operation.
 export {
   type ToastProps,
   type ToastActionElement,

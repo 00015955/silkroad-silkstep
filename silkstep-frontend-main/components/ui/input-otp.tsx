@@ -73,5 +73,6 @@ function InputOTPSeparator({ ...props }: React.ComponentProps<'div'>) {
     </div>
   )
 }
-
+// The InputOTP component is the main component that renders the OTP input field. 
+//It uses the OTPInput component from the 'input-otp' library and applies additional styling and functionality.
 export { InputOTP, InputOTPGroup, InputOTPSlot, InputOTPSeparator }

@@ -62,5 +62,8 @@ function AlertDescription({
     />
   )
 }
-
+// The Alert component serves as a container for displaying important messages or notifications to users. 
+//It accepts various props, including className for custom styling and variant for different visual styles (default and destructive). 
+//The AlertTitle and AlertDescription components are used to structure the content of the alert, allowing for a clear separation between the title and description of the message. 
+//The use of class-variance-authority (cva) helps manage the styling of the alert based on its variant, ensuring a consistent and visually appealing design across different types of alerts.
 export { Alert, AlertTitle, AlertDescription }

@@ -24,5 +24,5 @@ function KbdGroup({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
-
+// the kbd component is used to display keyboard shortcuts, and the kbd group component is used to group multiple kbd components together, such as "Ctrl + C"
 export { Kbd, KbdGroup }

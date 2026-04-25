@@ -42,5 +42,7 @@ function Badge({
     />
   )
 }
-
+// The Badge component is a versatile UI element that can be used to display small pieces of information, such as counts, labels, or status indicators. 
+//It supports different variants (default, secondary, destructive, outline) to allow for various styling options. 
+//The component also accepts an `asChild` prop, which allows it to render as a different HTML element or a custom component while still applying the badge styles.
 export { Badge, badgeVariants }

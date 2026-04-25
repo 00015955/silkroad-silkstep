@@ -27,5 +27,6 @@ function Progress({
     </ProgressPrimitive.Root>
   )
 }
-
+// the progress component is a wrapper around the radix ui progress component, it is used to display a progress bar. 
+// it takes a value prop which is a number between 0 and 100, and it will display the progress bar accordingly.
 export { Progress }

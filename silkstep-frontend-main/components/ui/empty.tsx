@@ -93,6 +93,9 @@ function EmptyContent({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+// empty functions to be used as slots in the Empty component to provide a consistent API for users of the component. 
+//These functions are used to render specific parts of the empty state, such as the header, title, description, content, and media (icon). 
+//By using these slot functions, users can easily customize the appearance and content of the empty state while maintaining a consistent structure and styling across different instances of the Empty component.
 
 export {
   Empty,

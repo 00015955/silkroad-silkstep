@@ -237,6 +237,8 @@ function DropdownMenuSubContent({
     />
   )
 }
+// dropdown menu content is wrapped in a portal, so it doesn't inherit the parent's overflow:hidden, which can cause the content to be cut off. 
+//To fix this, we can wrap the content in a div with overflow-hidden and then apply the styles to that div instead of the content itself.
 
 export {
   DropdownMenu,

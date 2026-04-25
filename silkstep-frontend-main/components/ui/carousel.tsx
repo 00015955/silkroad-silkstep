@@ -41,7 +41,7 @@ function useCarousel() {
 
   return context
 }
-
+// The Carousel component is a wrapper around the Embla Carousel library, providing a React context to manage the carousel state and behavior.
 function Carousel({
   orientation = 'horizontal',
   opts,
@@ -230,6 +230,7 @@ function CarouselNext({
     </Button>
   )
 }
+// The Carousel component provides a flexible and accessible way to create carousels in React applications, leveraging the power of the Embla Carousel library while maintaining a clean and intuitive API for developers.
 
 export {
   type CarouselApi,

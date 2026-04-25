@@ -115,7 +115,8 @@ function PaginationEllipsis({
     </span>
   )
 }
-
+// pagination components is a set of components that can be used to create a pagination UI. 
+// It includes a Pagination component that serves as the container for the pagination, a PaginationContent component that serves as the container for the pagination items, a PaginationItem component that serves as the container for each pagination item, a PaginationLink component that serves as the link for each pagination item, a PaginationPrevious component that serves as the link for the previous page, a PaginationNext component that serves as the link for the next page, and a PaginationEllipsis component that serves as the ellipsis for when there are too many pages to display.
 export {
   Pagination,
   PaginationContent,

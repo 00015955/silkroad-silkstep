@@ -49,5 +49,7 @@ function AvatarFallback({
     />
   )
 }
-
+// The Avatar component is a wrapper around the Radix UI Avatar primitive. 
+//It provides a way to display user avatars with a fallback option in case the image fails to load. 
+//The AvatarImage component is used to display the actual avatar image, while the AvatarFallback component is displayed when the image cannot be loaded, typically showing the user's initials or a default icon.
 export { Avatar, AvatarImage, AvatarFallback }

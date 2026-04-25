@@ -97,6 +97,7 @@ function BreadcrumbEllipsis({
     </span>
   )
 }
+// The Breadcrumb component is a navigation aid that helps users understand their current location within a website's hierarchy.
 
 export {
   Breadcrumb,

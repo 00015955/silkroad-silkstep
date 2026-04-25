@@ -21,5 +21,7 @@ const Toaster = ({ ...props }: ToasterProps) => {
     />
   )
 }
-
+// the toaster is used to display notifications to the user. 
+//It can be used to display success messages, error messages, or any other type of message that you want to display to the user. 
+//The toaster can be customized to fit the design of your application, and it can be used in any part of your application where you want to display a notification.
 export { Toaster }

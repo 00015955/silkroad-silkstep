@@ -152,7 +152,8 @@ function NavigationMenuIndicator({
     </NavigationMenuPrimitive.Indicator>
   )
 }
-
+// the navigation-menu component is not exported from the root of this module, but rather as a named export to avoid confusion with the NavigationMenuTrigger component which is also exported from this module. 
+//This is because the NavigationMenuTrigger component is used to trigger the navigation menu, and it would be confusing to have both components exported from the root of the module.
 export {
   NavigationMenu,
   NavigationMenuList,

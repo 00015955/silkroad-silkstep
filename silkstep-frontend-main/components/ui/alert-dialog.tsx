@@ -6,6 +6,7 @@ import * as AlertDialogPrimitive from '@radix-ui/react-alert-dialog'
 import { cn } from '@/lib/utils'
 import { buttonVariants } from '@/components/ui/button'
 
+// This is a custom implementation of the AlertDialog component using Radix UI primitives.
 function AlertDialog({
   ...props
 }: React.ComponentProps<typeof AlertDialogPrimitive.Root>) {
@@ -27,7 +28,7 @@ function AlertDialogPortal({
     <AlertDialogPrimitive.Portal data-slot="alert-dialog-portal" {...props} />
   )
 }
-
+// It uses Radix UI's Overlay primitive and applies custom styles and animations.
 function AlertDialogOverlay({
   className,
   ...props
@@ -43,7 +44,7 @@ function AlertDialogOverlay({
     />
   )
 }
-
+// The AlertDialogContent component is responsible for rendering the content of the alert dialog. It uses Radix UI's Content primitive and applies custom styles and animations to create a visually appealing dialog.
 function AlertDialogContent({
   className,
   ...props
@@ -62,7 +63,7 @@ function AlertDialogContent({
     </AlertDialogPortal>
   )
 }
-
+// The AlertDialogHeader and AlertDialogFooter components are used to structure the content of the alert dialog. They provide a consistent layout for the header and footer sections of the dialog, allowing for easy customization and styling.
 function AlertDialogHeader({
   className,
   ...props
@@ -75,7 +76,7 @@ function AlertDialogHeader({
     />
   )
 }
-
+// The AlertDialogFooter component is responsible for rendering the footer section of the alert dialog. It uses a flexbox layout to arrange the action buttons and provides responsive styling to ensure a consistent appearance across different screen sizes.
 function AlertDialogFooter({
   className,
   ...props
@@ -91,7 +92,7 @@ function AlertDialogFooter({
     />
   )
 }
-
+// The AlertDialogTitle and AlertDialogDescription components are used to display the title and description of the alert dialog, respectively. They apply custom styles to ensure that the text is visually distinct and easy to read within the context of the dialog.
 function AlertDialogTitle({
   className,
   ...props
@@ -117,7 +118,7 @@ function AlertDialogDescription({
     />
   )
 }
-
+// The AlertDialogAction and AlertDialogCancel components are used to render the action buttons within the alert dialog. They utilize the buttonVariants function to apply consistent styling to the buttons, ensuring that they align with the overall design of the application.
 function AlertDialogAction({
   className,
   ...props
@@ -141,6 +142,8 @@ function AlertDialogCancel({
     />
   )
 }
+// Overall, this implementation of the AlertDialog component provides a flexible and customizable way to create alert dialogs in a React application using Radix UI primitives. 
+//It allows developers to easily structure and style the dialog content while maintaining accessibility and responsiveness.
 
 export {
   AlertDialog,
@@ -155,3 +158,4 @@ export {
   AlertDialogAction,
   AlertDialogCancel,
 }
+

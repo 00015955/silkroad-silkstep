@@ -20,5 +20,6 @@ function Label({
     />
   )
 }
-
+// the label component is used to display a label for a form field, and it can be associated with a form field using the htmlFor prop, which should match the id of the form field. 
+//The label component also has a disabled state, which can be triggered by setting the disabled prop on the form field that it is associated with.
 export { Label }

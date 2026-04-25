@@ -103,7 +103,11 @@ function TableCaption({
     />
   )
 }
-
+// The table component is used to display data in a tabular format. 
+//It consists of several subcomponents, including TableHeader, TableBody, TableFooter, TableHead, TableRow, TableCell, and TableCaption. 
+//Each subcomponent has its own specific role in the structure of the table. 
+//The Table component itself is responsible for rendering the overall structure of the table and providing styling and layout. 
+//The subcomponents are used to define the different sections of the table, such as the header, body, and footer, as well as the individual cells and captions.
 export {
   Table,
   TableHeader,

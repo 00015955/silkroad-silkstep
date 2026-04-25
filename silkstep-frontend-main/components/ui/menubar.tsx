@@ -255,6 +255,9 @@ function MenubarSubContent({
     />
   )
 }
+// The above code defines a set of React components that wrap around the primitives provided by the Radix UI Menubar component. Each component is styled using the `cn` utility function to apply conditional class names based on the component's state and props. 
+//The components include `Menubar`, `MenubarMenu`, `MenubarGroup`, `MenubarPortal`, `MenubarRadioGroup`, `MenubarTrigger`, `MenubarContent`, `MenubarItem`, `MenubarCheckboxItem`, `MenubarRadioItem`, `MenubarLabel`, `MenubarSeparator`, `MenubarShortcut`, `MenubarSub`, `MenubarSubTrigger`, and `MenubarSubContent`. 
+//These components can be used to create a fully functional menubar with various types of menu items, including checkboxes and radio buttons, as well as support for submenus.
 
 export {
   Menubar,

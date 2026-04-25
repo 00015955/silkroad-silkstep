@@ -64,3 +64,7 @@ function AccordionContent({
 }
 
 export { Accordion, AccordionItem, AccordionTrigger, AccordionContent }
+
+// This file is a re-export of the Radix UI Accordion component with some custom styling and additional features. 
+//It provides a simple API for creating an accordion interface in a React application. 
+//The components are built using the Radix UI primitives and can be easily customized with additional props and styles.

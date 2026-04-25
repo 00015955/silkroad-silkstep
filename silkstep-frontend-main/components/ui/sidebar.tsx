@@ -697,7 +697,10 @@ function SidebarMenuSubButton({
     />
   )
 }
-
+// The sidebar component is a complex component that can be used to create a sidebar navigation for a web application. 
+//It supports different variants (sidebar, floating, inset), different collapsible behaviors (offcanvas, icon, none), and is responsive to mobile devices. 
+//The component also provides a context that can be used to control the sidebar state and behavior from any child component. 
+//The sidebar is built using Radix UI primitives and Tailwind CSS for styling.
 export {
   Sidebar,
   SidebarContent,

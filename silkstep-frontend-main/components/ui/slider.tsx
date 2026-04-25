@@ -59,5 +59,8 @@ function Slider({
     </SliderPrimitive.Root>
   )
 }
-
+// the slider is used to select a value from a range of values. 
+//It can be used for things like volume control, brightness control, or any other setting that has a range of values. 
+//The slider can be horizontal or vertical, and it can have one or more thumbs to allow for selecting multiple values. 
+//The slider can also be disabled to prevent user interaction when necessary.
 export { Slider }

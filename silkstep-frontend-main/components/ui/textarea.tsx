@@ -14,5 +14,6 @@ function Textarea({ className, ...props }: React.ComponentProps<'textarea'>) {
     />
   )
 }
-
+// the textarea is used to input multiple lines of text, such as a comment or a message. 
+//It can also be used to input code or other types of text that require more space than a single line.
 export { Textarea }

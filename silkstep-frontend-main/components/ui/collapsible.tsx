@@ -29,5 +29,5 @@ function CollapsibleContent({
     />
   )
 }
-
+// The Collapsible component is a wrapper around the Radix UI Collapsible primitive.
 export { Collapsible, CollapsibleTrigger, CollapsibleContent }

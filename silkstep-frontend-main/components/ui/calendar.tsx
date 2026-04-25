@@ -171,7 +171,7 @@ function Calendar({
     />
   )
 }
-
+// The Calendar component is a wrapper around the Radix UI DayPicker primitive.
 function CalendarDayButton({
   className,
   day,
@@ -209,5 +209,6 @@ function CalendarDayButton({
     />
   )
 }
+// The CalendarDayButton component is a custom button component used for rendering individual day cells in the calendar.
 
 export { Calendar, CalendarDayButton }

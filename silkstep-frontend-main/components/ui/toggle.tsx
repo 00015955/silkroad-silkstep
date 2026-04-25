@@ -43,5 +43,6 @@ function Toggle({
     />
   )
 }
-
+// the toggle is used to switch between two states, such as on and off, or enabled and disabled. 
+//It can also be used to toggle between different options, such as light and dark mode, or to enable or disable a feature.
 export { Toggle, toggleVariants }

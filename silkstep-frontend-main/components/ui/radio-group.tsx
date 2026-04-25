@@ -41,5 +41,7 @@ function RadioGroupItem({
     </RadioGroupPrimitive.Item>
   )
 }
-
+// The RadioGroup component is a styled radio group that can be used to create a set of radio buttons. 
+//The RadioGroupItem component represents an individual radio button within the group. 
+//It includes styles for focus and error states, as well as disabled states.
 export { RadioGroup, RadioGroupItem }

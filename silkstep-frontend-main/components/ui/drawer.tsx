@@ -120,6 +120,9 @@ function DrawerDescription({
     />
   )
 }
+// The Drawer component is a UI element that slides in from the edge of the screen to display additional content. 
+//It is typically used for navigation menus, filters, or any content that needs to be temporarily displayed without navigating away from the current page. 
+//The Drawer component consists of several subcomponents, including DrawerTrigger, DrawerPortal, DrawerOverlay, DrawerClose, DrawerContent, DrawerHeader, DrawerFooter, DrawerTitle, and DrawerDescription. Each of these subcomponents serves a specific purpose in structuring and styling the content within the drawer.
 
 export {
   Drawer,

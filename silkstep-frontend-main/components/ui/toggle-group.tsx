@@ -69,5 +69,7 @@ function ToggleGroupItem({
     </ToggleGroupPrimitive.Item>
   )
 }
-
+// The toggle group is used to group together multiple toggle items, which can be used to create a set of related options that can be toggled on or off.
+// For example, you could use a toggle group to create a set of options for filtering a list of items, such as "Show only active items" and "Show only completed items". 
+//The toggle group allows you to easily manage the state of the toggle items and ensure that they are visually grouped together.
 export { ToggleGroup, ToggleGroupItem }

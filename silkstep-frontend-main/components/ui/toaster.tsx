@@ -33,3 +33,4 @@ export function Toaster() {
     </ToastProvider>
   )
 }
+// The Toaster component is used to display a list of toasts to the user. 

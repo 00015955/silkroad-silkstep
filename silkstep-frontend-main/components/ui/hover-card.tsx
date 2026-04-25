@@ -4,7 +4,8 @@ import * as React from 'react'
 import * as HoverCardPrimitive from '@radix-ui/react-hover-card'
 
 import { cn } from '@/lib/utils'
-
+/// This is a custom implementation of the Radix UI HoverCard component, which provides a way to display additional information when hovering over an element. 
+//The component is built using the primitives provided by Radix UI and includes styling and animation for a smooth user experience.
 function HoverCard({
   ...props
 }: React.ComponentProps<typeof HoverCardPrimitive.Root>) {

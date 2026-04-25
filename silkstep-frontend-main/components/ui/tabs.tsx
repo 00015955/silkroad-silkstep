@@ -62,5 +62,7 @@ function TabsContent({
     />
   )
 }
-
+// The Tabs component is used to create a tabbed interface, where users can switch between different views or sections of content by clicking on the corresponding tabs.
+// Each tab corresponds to a specific content area, and when a tab is selected, the associated content is displayed while hiding the others. 
+//This allows for better organization and navigation within a user interface, especially when dealing with large amounts of information or multiple categories of content.
 export { Tabs, TabsList, TabsTrigger, TabsContent }

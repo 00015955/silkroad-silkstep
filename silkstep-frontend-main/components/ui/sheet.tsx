@@ -126,7 +126,10 @@ function SheetDescription({
     />
   )
 }
-
+// The sheet component is used to display a modal dialog that slides in from the side of the screen. 
+//It can be used for various purposes, such as displaying additional information, providing a form for user input, or showing a menu. 
+//The sheet can be triggered by a button or any other element, and it can be closed by clicking outside of it or by using the close button provided within the sheet. 
+//The content of the sheet can be customized with a header, footer, title, and description to suit the needs of the application.
 export {
   Sheet,
   SheetTrigger,

@@ -54,5 +54,6 @@ function ScrollBar({
     </ScrollAreaPrimitive.ScrollAreaScrollbar>
   )
 }
-
+// the scroll area is a container that allows its child content to be scrollable, with customizable scrollbars. 
+//The scroll bar component is a child of the scroll area that represents the scrollbar itself, which can be oriented vertically or horizontally and contains a thumb that can be dragged to scroll the content. 
 export { ScrollArea, ScrollBar }

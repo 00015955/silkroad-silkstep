@@ -57,5 +57,6 @@ function TooltipContent({
     </TooltipPrimitive.Portal>
   )
 }
-
+// the tooltip content is rendered in a portal, so it doesn't inherit the parent styles. 
+//We need to set the background and text color explicitly.
 export { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider }

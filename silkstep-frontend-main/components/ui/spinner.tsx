@@ -12,5 +12,5 @@ function Spinner({ className, ...props }: React.ComponentProps<'svg'>) {
     />
   )
 }
-
+// the spinner is used to show a loading state for a component, such as a card or a list item.
 export { Spinner }

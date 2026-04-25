@@ -17,3 +17,6 @@ export function useIsMobile() {
 
   return !!isMobile
 }
+// the useIsMobile hook is used to determine if the user is on a mobile device or not. 
+//It uses the window.matchMedia API to listen for changes in the viewport width and updates the state accordingly. 
+//The breakpoint for mobile devices is set to 768px, which is a common breakpoint for responsive design.

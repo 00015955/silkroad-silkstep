@@ -5,7 +5,7 @@ import * as DialogPrimitive from '@radix-ui/react-dialog'
 import { XIcon } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
-
+// The Dialog component is a wrapper around the Radix UI Dialog primitive.
 function Dialog({
   ...props
 }: React.ComponentProps<typeof DialogPrimitive.Root>) {
@@ -45,7 +45,7 @@ function DialogOverlay({
     />
   )
 }
-
+// The DialogContent component is responsible for rendering the content of the dialog. It uses Radix UI's Content primitive and applies custom styles and animations to create a visually appealing dialog. It also includes an optional close button that allows users to easily dismiss the dialog.
 function DialogContent({
   className,
   children,
@@ -79,7 +79,8 @@ function DialogContent({
     </DialogPortal>
   )
 }
-
+// The DialogHeader, DialogFooter, DialogTitle, and DialogDescription components are used to structure the content of the dialog. 
+//They provide a consistent layout and styling for the dialog's header, footer, title, and description sections.
 function DialogHeader({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -128,7 +129,7 @@ function DialogDescription({
     />
   )
 }
-
+// The Dialog component and its associated subcomponents (DialogTrigger, DialogPortal, DialogClose, DialogOverlay, DialogContent, DialogHeader, DialogFooter, DialogTitle, and DialogDescription) provide a flexible and customizable way to create dialogs in a React application.
 export {
   Dialog,
   DialogClose,

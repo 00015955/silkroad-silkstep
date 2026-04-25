@@ -28,5 +28,5 @@ function Checkbox({
     </CheckboxPrimitive.Root>
   )
 }
-
+// The Checkbox component is a customizable UI element that allows users to select one or more options from a set.
 export { Checkbox }

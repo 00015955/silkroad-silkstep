@@ -154,7 +154,8 @@ function CommandItem({
     />
   )
 }
-
+// The CommandShortcut component is used to display keyboard shortcuts for command items. 
+//It is typically rendered as a child of CommandItem and is styled to appear on the right side of the item, with a smaller font size and muted color to indicate that it is a shortcut.
 function CommandShortcut({
   className,
   ...props
@@ -170,6 +171,7 @@ function CommandShortcut({
     />
   )
 }
+
 
 export {
   Command,

@@ -27,5 +27,6 @@ function Switch({
     </SwitchPrimitive.Root>
   )
 }
-
+// the switch is used to toggle between two states, such as on and off, or enabled and disabled. 
+//It can also be used to toggle between different options, such as light and dark mode, or to enable or disable a feature.
 export { Switch }

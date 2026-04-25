@@ -247,7 +247,7 @@ function ChartTooltipContent({
     </div>
   )
 }
-
+// The Legend component is a bit more limited in terms of customization, so we just render the content ourselves and use the Legend component as a wrapper to get the payload.
 const ChartLegend = RechartsPrimitive.Legend
 
 function ChartLegendContent({
@@ -342,7 +342,8 @@ function getPayloadConfigFromPayload(
     ? config[configLabelKey]
     : config[key as keyof typeof config]
 }
-
+// This is a bit of a hack to allow for both the name and dataKey to be used as keys for the config, and to allow for the label to be used as a key if it's a string. 
+//This is because different chart types use different keys for the payload, and we want to be able to support all of them without requiring the user to specify the key in the config.
 export {
   ChartContainer,
   ChartTooltip,

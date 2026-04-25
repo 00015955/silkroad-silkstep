@@ -17,5 +17,6 @@ function Input({ className, type, ...props }: React.ComponentProps<'input'>) {
     />
   )
 }
-
+// The Input component is a styled input element that can be used in forms and other user input scenarios. 
+//It supports various types of input, such as text, password, email, etc., and includes styles for focus and error states.
 export { Input }

@@ -56,5 +56,8 @@ function Button({
     />
   )
 }
-
+// The Button component is a versatile UI element that can be used for various actions in the application. 
+//It supports multiple variants (default, destructive, outline, secondary, ghost, link) to allow for different styling options based on the context of use. 
+//Additionally, it offers size options (default, sm, lg, icon) to accommodate different design needs. 
+//The `asChild` prop allows the Button to render as a different HTML element or a custom component while still applying the button styles.
 export { Button, buttonVariants }

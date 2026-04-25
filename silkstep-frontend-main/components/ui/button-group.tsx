@@ -74,6 +74,10 @@ function ButtonGroupSeparator({
     />
   )
 }
+// The ButtonGroup component is a flexible container that allows you to group related buttons together. 
+//It supports both horizontal and vertical orientations, making it adaptable to various UI layouts. 
+//The ButtonGroupText component can be used to add descriptive text within the button group, while the ButtonGroupSeparator provides a visual separation between buttons or groups of buttons. 
+//The use of the `asChild` prop in ButtonGroupText allows for greater flexibility in rendering different types of content while maintaining consistent styling.
 
 export {
   ButtonGroup,

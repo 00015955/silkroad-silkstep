@@ -6,7 +6,8 @@ import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-
+/// The InputGroup component is a flexible container for grouping related input elements, such as text inputs, buttons, and addons. 
+//It provides a consistent styling and behavior for these elements when used together.
 function InputGroup({ className, ...props }: React.ComponentProps<'div'>) {
   return (
     <div
@@ -34,7 +35,7 @@ function InputGroup({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
-
+// The InputGroupAddon component is used to add additional elements, such as icons or text, to the input group.
 const inputGroupAddonVariants = cva(
   "text-muted-foreground flex h-auto cursor-text items-center justify-center gap-2 py-1.5 text-sm font-medium select-none [&>svg:not([class*='size-'])]:size-4 [&>kbd]:rounded-[calc(var(--radius)-5px)] group-data-[disabled=true]/input-group:opacity-50",
   {
@@ -158,6 +159,7 @@ function InputGroupTextarea({
     />
   )
 }
+// The InputGroupText component is used to display static text within the input group, while the InputGroupInput and InputGroupTextarea components are used for user input.
 
 export {
   InputGroup,

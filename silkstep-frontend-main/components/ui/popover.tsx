@@ -44,5 +44,7 @@ function PopoverAnchor({
 }: React.ComponentProps<typeof PopoverPrimitive.Anchor>) {
   return <PopoverPrimitive.Anchor data-slot="popover-anchor" {...props} />
 }
-
+// The Popover component is a custom implementation of the Radix UI Popover component, which provides a way to display additional content in a floating container. 
+//The component is built using the primitives provided by Radix UI and includes styling and animation for a smooth user experience. The PopoverTrigger component is used to trigger the display of the popover content, while the PopoverContent component defines the content that will be displayed in the popover. 
+//The PopoverAnchor component can be used to specify an anchor element for the popover, which will determine its position relative to the trigger element.
 export { Popover, PopoverTrigger, PopoverContent, PopoverAnchor }

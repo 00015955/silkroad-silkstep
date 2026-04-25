@@ -52,5 +52,5 @@ function ResizableHandle({
     </ResizablePrimitive.PanelResizeHandle>
   )
 }
-
+// the resizable panel group is a container that allows its child panels to be resized by dragging the handles between them.
 export { ResizablePanelGroup, ResizablePanel, ResizableHandle }

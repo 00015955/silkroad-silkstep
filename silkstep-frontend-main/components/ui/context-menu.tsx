@@ -232,7 +232,13 @@ function ContextMenuShortcut({
     />
   )
 }
-
+// The ContextMenuGroup component is used to group related items together within the context menu. 
+//It is typically rendered as a child of the ContextMenuContent component and can contain any number of ContextMenuItem components. 
+//The ContextMenuPortal component is used to render the context menu in a different part of the DOM tree, which can be useful for avoiding issues with z-index and overflow. 
+//It is typically rendered as a child of the ContextMenuContent component and can contain any number of ContextMenuItem components. 
+//The ContextMenuSub component is used to create a submenu within the context menu. It is typically rendered as a child of the ContextMenuContent component and can contain any number of ContextMenuItem components, as well as other submenus. 
+//The ContextMenuSubTrigger component is used to trigger the display of a submenu when clicked. It is typically rendered as a child of the ContextMenuSub component and should contain the text or icon that indicates that it will open a submenu when clicked. 
+//The ContextMenuSubContent component is used to define the content of a submenu. It is typically rendered as a child of the ContextMenuSub component and should contain any number of ContextMenuItem components that will be displayed when the submenu is opened.
 export {
   ContextMenu,
   ContextMenuTrigger,

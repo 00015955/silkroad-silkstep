@@ -178,6 +178,10 @@ function ItemFooter({ className, ...props }: React.ComponentProps<'div'>) {
     />
   )
 }
+// item component with media, content, title, description, actions, header and footer slots to provide a consistent API for users of the component. 
+//The item component is a flexible and customizable component that can be used to display a variety of content, such as lists, cards, and more.
+// The media slot can be used to display an icon or image, the content slot can be used to display the main content of the item, the title and description slots can be used to display additional information about the item, and the actions slot can be used to display buttons or other interactive elements. 
+//The header and footer slots can be used to display additional information or actions related to the item.
 
 export {
   Item,

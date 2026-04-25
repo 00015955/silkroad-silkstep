@@ -81,6 +81,12 @@ function CardFooter({ className, ...props }: React.ComponentProps<'div'>) {
   )
 }
 
+
+// The Card component serves as a container for displaying content in a structured and visually appealing manner. 
+//It is designed to be flexible and can accommodate various types of content, such as text, images, and actions. 
+//The CardHeader, CardTitle, CardDescription, CardAction, CardContent, and CardFooter components are used to structure the content within the card, allowing for a clear hierarchy and organization of information.
+// Each of these components applies specific styles to ensure that the content is presented in a cohesive and visually consistent way.
+
 export {
   Card,
   CardHeader,
